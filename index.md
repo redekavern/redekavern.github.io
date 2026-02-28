@@ -4,21 +4,29 @@ layout: home
 
 hero:
   name: "Redek à Vern"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: ""
+  tagline: Les courses à pied de l'US Vern
+  image:
+    src: /affiches/redek-2026.jpg
+    alt: Redek à Vern 2026
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Inscriptions
+      link: https://www.klikego.com
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<script setup>
+import ExtraContent from './articles/redek-2026.md'
+</script>
+
+<ExtraContent />

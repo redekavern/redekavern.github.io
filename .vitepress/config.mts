@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    lang: 'fr-FR',
     title: "Redek à Vern",
     description: "",
     themeConfig: {
@@ -16,19 +17,25 @@ export default defineConfig({
             { text: 'Les parcours', link: '/parcours' },
         ],
 
-        sidebar: [
-            {
-                text: 'Examples',
-                items: [
-                    { text: 'Markdown Examples', link: '/markdown-examples' },
-                    { text: 'Runtime API Examples', link: '/api-examples' }
-                ]
-            }
-        ],
+        // sidebar: [
+        //     {
+        //         text: 'Examples',
+        //         items: [
+        //             { text: 'Markdown Examples', link: '/markdown-examples' },
+        //             { text: 'Runtime API Examples', link: '/api-examples' }
+        //         ]
+        //     }
+        // ],
 
         socialLinks: [
             { icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100090918943830&locale=fr_FR' },
             { icon: 'instagram', link: 'https://www.instagram.com/redekavern/' }
-        ]
-    }
+        ],
+
+        search: {
+            provider: 'local'
+        }
+        
+    },
+    
 })

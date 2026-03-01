@@ -34,8 +34,12 @@ export default defineConfig({
 
         search: {
             provider: 'local'
+        },
+
+        footer: {
+            copyright: 'Copyright © 2026 Redek à Vern',
         }
-        
+
     },
-    
+
 })

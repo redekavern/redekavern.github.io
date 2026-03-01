@@ -127,13 +127,15 @@
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+  /* Définit la couleur pour tout le site */
+  --vp-nav-bg-color: #33bcff;
 }
 
 /**
  * Component: Nav
  * -------------------------------------------------------------------------- */
 .VPNav {
-  background-color: #33bcff;
+  background-color: var(--vp-nav-bg-color) !important;
   padding-top: 20px;
   padding-bottom: 20px;
   font-weight: bold;
@@ -150,4 +152,9 @@
 .VPNavBarTitle .VPImage {
   height: 60px;
   width: auto;
+}
+
+/* On supprime le divider du header */
+.VPNavBar .divider {
+  display: none !important;
 }

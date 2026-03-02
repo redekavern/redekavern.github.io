@@ -1,9 +1,11 @@
 import { defineConfig } from 'vitepress'
 
+const isGitLab = process.env.GITLAB_CI === 'true';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     lang: 'fr-FR',
-    base: '/redek/',
+    base: isGitLab ? '/redek/' : '/',
     title: "Redek à Vern",
     description: "Les courses à pied de l'US Vern sur Seiche Athlétisme",
     themeConfig: {

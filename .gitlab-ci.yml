@@ -1,14 +1,21 @@
-image: node:18
+image: node:18-alpine
+
+# Cache les modules pour accélérer les prochains builds
+cache:
+  paths:
+    - .npm/
+
 pages:
-  cache:
-    paths:
-      - node_modules/
+  stage: deploy
   script:
-    # - apk add git # Uncomment this if you're using small docker images like alpine and have lastUpdated enabled
-    - npm install
+    - npm ci --cache .npm --prefer-offline
     - npm run docs:build
+    # VitePress génère par défaut dans .vitepress/dist
+    # On déplace le contenu vers 'public' pour GitLab
+    - rm -rf public
+    - mv .vitepress/dist public
   artifacts:
     paths:
       - public
   only:
-    - main
+    - main # Ou 'master' selon votre branche principale

@@ -5,7 +5,8 @@ const isGitLab = process.env.GITLAB_CI === 'true';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     lang: 'fr-FR',
-    base: isGitLab ? '/redek/' : '/',
+    // base: isGitLab ? '/redek/' : '/',
+    base: '/',
     title: "Redek à Vern",
     description: "Les courses à pied de l'US Vern sur Seiche Athlétisme",
     head: [

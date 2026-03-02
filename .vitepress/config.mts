@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     lang: 'fr-FR',
     title: "Redek à Vern",
-    description: "",
+    description: "Les courses à pied de l'US Vern sur Seiche Athlétisme",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/logos/logo-redek.webp',
@@ -41,5 +41,6 @@ export default defineConfig({
         }
 
     },
-
+    outDir: '../public',
+    base: '/redek/',
 })

@@ -8,6 +8,19 @@ export default defineConfig({
     base: isGitLab ? '/redek/' : '/',
     title: "Redek à Vern",
     description: "Les courses à pied de l'US Vern sur Seiche Athlétisme",
+    head: [
+        ['meta', { name: 'twitter:site', content: '@redekavern' }],
+        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+        ['meta', { property: 'og:image:width', content: '1200' }],
+        ['meta', { property: 'og:image:height', content: '630' }],
+        ['meta', { property: 'og:image:type', content: 'image/png' }],
+        ['meta', { property: 'og:site_name', content: 'Redek à Vern' }],
+        ['meta', { property: 'og:url', content: 'https://redek.vercel.app/' }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:locale', content: 'fr_FR' }],
+        ['meta', { property: 'og:title', content: 'Redek à Vern' }],
+
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/logos/logo-redek.webp',
@@ -38,6 +51,8 @@ export default defineConfig({
         search: {
             provider: 'local'
         },
+
+
 
         footer: {
             copyright: 'Copyright © 2026 Redek à Vern',

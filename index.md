@@ -14,19 +14,11 @@ hero:
       text: Inscriptions
       link: https://www.klikego.com
 
-
-
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Inscriptions
+    details: Les inscriptions ouvrent bientôt, bloquez dès maintenant le 27 septembre !
+  - title: Une course solidaire
+    details: Cette année encore la Redek est solidaire du Rire Médecin
+  - title: Bénévoles
+    details: Vous souhaitez devenir bénévole ? Contactez nous.
 ---
-
-<script setup>
-import ExtraContent from './articles/redek-2026.md'
-</script>
-
-<ExtraContent />

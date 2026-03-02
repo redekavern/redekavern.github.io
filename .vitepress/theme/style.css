@@ -158,3 +158,54 @@
 .VPNavBar .divider {
   display: none !important;
 }
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-socials a {
+  color: var(--vp-c-text-2);
+  transition:
+    color 0.3s,
+    transform 0.2s;
+}
+
+.footer-socials a:hover {
+  color: var(--vp-c-brand-1);
+  transform: scale(1.1);
+}
+
+/* On s'assure que le message du footer est bien centré */
+.VPFooter .message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
+.custom-home-content {
+  max-width: 1152px;
+  margin: 40px auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+/* Style pour les titres à l'intérieur de l'article importé */
+.custom-home-content h1,
+.custom-home-content h2 {
+  border-top: none;
+  margin-top: 0;
+}
+
+/* Centre toutes les images à l'intérieur de custom-home-content */
+.custom-home-content img {
+  display: block; /* Force l'image à se comporter comme un bloc */
+  margin-left: auto; /* Marge automatique à gauche */
+  margin-right: auto; /* Marge automatique à droite */
+
+  /* Optionnel : un peu de style pour le rendu */
+  border-radius: 8px; /* Angles arrondis */
+  max-width: 100%; /* S'adapte aux mobiles */
+}

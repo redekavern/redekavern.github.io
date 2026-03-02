@@ -1,47 +1,88 @@
 ---
-title: Les Parcours
+title: Les Parcours 2025
 editLink: false
 ---
 
-# Parcours de l'édition 2025
+<script setup>
+// 1. On définit la liste des courses ici (facile à modifier pour 2026 !)
+const annee = "2025"
+const dossier = `/parcours/${annee}` // Attention : mettez `/redek/parcours/${annee}` si vous n'avez pas de domaine unique
 
-Découvrez les tracés de la Redek à Vern pour cette année. Cliquez sur les images pour les agrandir.
+const courses = [
+  {
+    nom: "La 5 km Running Conseil",
+    distance: "5 km",
+    image: "5km.png",
+    description: "Un tracé rapide pour les amateurs de vitesse.",
+    //lienTrace: "https://www.openrunner.com/..." 
+  },
+  {
+    nom: "La 10 km du BDS",
+    distance: "10 km",
+    image: "10km.png",
+    description: "Le parcours à travers la vallée de la Seiche.",
+    // lienTrace: "https://www.openrunner.com/..."
+  },
+  {
+    nom: "Le parcours benjamins et minimes by CMB",
+    // distance: "8 km",
+    image: "benjamin-minime.png",
+    description: "2 boucles calibrées pour les jeunes.",
+    lienTrace: ""
+  },
+  {
+    nom: "Le parcours poussin by CMB",
+    // distance: "8 km",
+    image: "poussin.png",
+    description: "1 boucle.",
+    lienTrace: ""
+  },
+  {
+    nom: "Le parcours éveil athlé by CMB",
+    // distance: "8 km",
+    image: "eveil.png",
+    description: "Quelques centaines de mètres pour faire plaisir aux plus jeunes.",
+    lienTrace: ""
+  },
+  {
+    nom: "La randonnée",
+    distance: "11,1 km",
+    image: "randonnee.png",
+    description: "Pour découvrir Vern sans pression.",
+    lienTrace: ""
+  },
+]
+</script>
+
+# Les parcours de l'édition {{ annee }}
+
+Retrouvez ci-dessous le détail des épreuves.
 
 <div class="parcours-grid">
 
-  <div class="parcours-card">
-    <img src="/parcours/2025/5km.png" alt="Parcours 5km">
-    <div class="info">
-      <h3>Le 5 km de Running Conseil</h3>
-      <p>En bleu la première boucle, en rouge la seconde boucle.</p>
-      <a href="/parcours/2025/5km.png" target="_blank" class="btn">Voir en grand</a>
+  <div v-for="course in courses" :key="course.nom" class="parcours-card">
+    <div class="card-image">
+    <a :href="`${dossier}/${course.image}`" target="_blank">
+      <img :src="`${dossier}/${course.image}`" :alt="course.nom">
+      </a>
+      <span class="badge">{{ course.distance }}</span>
     </div>
+    <div class="info">
+    <h3>{{ course.nom }}</h3>
+      <p>{{ course.description }}</p>
   </div>
-
-  <div class="parcours-card">
-    <img src="/parcours/2025/10km.png" alt="Parcours 10km">
-    <div class="info">
-      <h3>Le 10 km du BDS</h3>
-      <p>En bleu la première boucle, en rouge la seconde boucle.</p>
-      <a href="/parcours/2025/10km.png" target="_blank" class="btn">Voir en grand</a>
-    </div>
-  </div>
-
-<div class="parcours-card">
-    <img src="/parcours/2025/benjamin-minime.png" alt="Parcours benjamins et minimse">
-    <div class="info">
-      <h3>Benjamins et minimes by CMB</h3>
-      <p>En bleu la première boucle, en rouge la seconde.</p>
-      <a href="/parcours/2025/benjamin-minime.png" target="_blank" class="btn">Voir en grand</a>
-    </div>
+  <div class="actions">
+        <a :href="`${dossier}/${course.image}`" target="_blank" class="btn secondary">Plan</a>
+        <a v-if="course.lienTrace" :href="course.lienTrace" target="_blank" class="btn primary">Tracé GPS</a>
+      </div>
   </div>
 </div>
 
-<style>
+<style scoped>
 .parcours-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
   margin-top: 2rem;
 }
 
@@ -50,37 +91,69 @@ Découvrez les tracés de la Redek à Vern pour cette année. Cliquez sur les im
   border-radius: 12px;
   background-color: var(--vp-c-bg-soft);
   overflow: hidden;
-  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
 }
 
-.parcours-card:hover {
-  transform: translateY(-5px);
-  border-color: var(--vp-c-brand-1);
+.card-image {
+  position: relative;
+  height: 180px;
 }
 
-.parcours-card img {
+.card-image img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
 }
 
-.parcours-card .info {
-  padding: 1.5rem;
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--vp-c-brand-1);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
-.parcours-card h3 {
+.info {
+  padding: 1.2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info h3 {
   margin: 0 0 0.5rem 0 !important;
-  color: var(--vp-c-text-1);
+}
+
+.actions {
+    margin: 1px 1px 1px 1px;
+  margin-top: auto;
+  display: flex;
+  gap: 12px;
 }
 
 .btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 5px 15px;
-  background-color: var(--vp-c-brand-1);
-  color: white !important;
-  border-radius: 8px;
+  margin: 1px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
   text-decoration: none !important;
-  font-size: 0.9em;
+  text-align: center;
+  flex: 1;
+  border: 1px solid transparent;
 }
+
+.btn.primary { background: var(--vp-c-brand-1); color: white !important; }
+.btn.secondary { 
+    border: 1px solid var(--vp-c-brand-1); 
+    color: var(--vp-c-brand-1) !important; 
+    background-color: transparent;
+    }
+
+.btn:hover { opacity: 0.8; }
 </style>

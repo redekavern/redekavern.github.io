@@ -42,5 +42,4 @@ export default defineConfig({
 
     },
     // outDir: '../public',
-    base: '/redek/',
 })

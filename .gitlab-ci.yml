@@ -12,6 +12,7 @@ pages:
     - npm run docs:build
     - ls -altr
     - ls -altr .vitepress
+    - ls -altr public
     # VitePress génère par défaut dans .vitepress/dist
     # On déplace le contenu vers 'public' pour GitLab
     - rm -rf public

@@ -208,3 +208,22 @@
   display: block;
   width: 800px; /* Force la largeur */
 }
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.footer-socials a {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-color: var(--vp-c-text-2); /* Couleur de l'icône */
+  transition: background-color 0.2s;
+}
+
+.footer-socials a:hover {
+  background-color: var(--vp-c-brand); /* Couleur au survol */
+}

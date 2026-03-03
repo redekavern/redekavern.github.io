@@ -14,7 +14,7 @@ pages:
     # VitePress génère par défaut dans .vitepress/dist
     # On déplace le contenu vers 'public' pour GitLab
     - rm -rf public
-    - mv .vitepress/dist public
+    - mv docs/.vitepress/dist public
   artifacts:
     paths:
       - public

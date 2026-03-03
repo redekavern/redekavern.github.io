@@ -58,10 +58,10 @@ export default defineConfig({
 
 
 
-        footer: {
-            copyright: 'Copyright © 2026 Redek à Vern',
+        // footer: {
+        //     copyright: 'Copyright © 2026 Redek à Vern',
 
-        }
+        // }
 
     },
     // outDir: '../public',

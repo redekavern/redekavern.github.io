@@ -173,31 +173,15 @@
   display: none !important;
 }
 
+.VPFooter {
+  display: flex !important;
+  flex-direction: column-reverse !important; /* Inverse l'ordre des éléments enfants */
+  padding: 24px 0 !important;
+}
+
+/* On ajuste les marges pour que ce soit aéré */
 .footer-socials {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
-}
-
-.footer-socials a {
-  color: var(--vp-c-text-2);
-  transition:
-    color 0.3s,
-    transform 0.2s;
-}
-
-.footer-socials a:hover {
-  color: var(--vp-c-brand-1);
-  transform: scale(1.1);
-}
-
-/* On s'assure que le message du footer est bien centré */
-.VPFooter .message {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.6;
+  margin-bottom: 12px;
 }
 
 .img-post {
@@ -207,23 +191,4 @@
   /*margin: 1rem auto;  Centre l'image */
   display: block;
   width: 800px; /* Force la largeur */
-}
-
-.footer-socials {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 8px;
-}
-
-.footer-socials a {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-color: var(--vp-c-text-2); /* Couleur de l'icône */
-  transition: background-color 0.2s;
-}
-
-.footer-socials a:hover {
-  background-color: var(--vp-c-brand); /* Couleur au survol */
 }

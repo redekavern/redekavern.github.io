@@ -68,6 +68,20 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    220deg,
+    #45458b,
+    #33bcff
+  ) !important;
+
+  /* Première couleur du halo */
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #45458b 50%,
+    #33bcff 50%
+  ) !important;
 }
 
 /**

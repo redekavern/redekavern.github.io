@@ -14,11 +14,13 @@ hero:
       text: Inscriptions
       link: https://www.klikego.com
 
-features:
-  - title: Inscriptions
-    details: Les inscriptions ouvrent bientôt, bloquez dès maintenant le 27 septembre !
-  - title: Une course solidaire
-    details: Cette année encore la Redek est solidaire du Rire Médecin
-  - title: Bénévoles
-    details: Vous souhaitez devenir bénévole ? Contactez nous.
+# features:
+#   - title: Inscriptions
+#     details: Les inscriptions ouvrent bientôt, bloquez dès maintenant le 27 septembre !
+#   - title: Une course solidaire
+#     details: Cette année encore la Redek est solidaire du Rire Médecin
+#   - title: Bénévoles
+#     details: Vous souhaitez devenir bénévole ? Contactez nous.
 ---
+
+<PostList />

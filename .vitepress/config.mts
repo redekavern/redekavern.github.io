@@ -29,10 +29,11 @@ export default defineConfig({
         nav: [
             { text: 'Accueil', link: '/' },
             { text: 'Contacts', link: '/contacts' },
-            { text: 'Actualités', link: '/actualites' },
+            // { text: 'Actualités', link: '/actualites' },
             { text: 'Partenaires', link: '/partenaires' },
             { text: 'Photos', link: '/photos' },
             { text: 'Les parcours', link: '/parcours' },
+            { text: 'Les archives', link: '/archives' },
         ],
 
         // sidebar: [
@@ -50,9 +51,9 @@ export default defineConfig({
             { icon: 'instagram', link: 'https://www.instagram.com/redekavern/' }
         ],
 
-        search: {
-            provider: 'local'
-        },
+        // search: {
+        //     provider: 'local'
+        // },
 
 
 

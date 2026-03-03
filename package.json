@@ -1,13 +1,14 @@
 {
-  "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  },
-  "dependencies": {
-    "vitepress": "^1.6.4"
-  },
-  "devDependencies": {
-    "@iconify/vue": "^5.0.0"
-  }
+    "type": "module",
+    "scripts": {
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "dependencies": {
+        "vitepress": "^1.6.4"
+    },
+    "devDependencies": {
+        "@iconify/vue": "^5.0.0"
+    }
 }

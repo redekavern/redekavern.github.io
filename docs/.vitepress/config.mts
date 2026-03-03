@@ -7,6 +7,7 @@ export default defineConfig({
     lang: 'fr-FR',
     // base: isGitLab ? '/redek/' : '/',
     base: '/',
+    srcDir: '.',
     title: "Redek à Vern",
     description: "Les courses à pied de l'US Vern sur Seiche Athlétisme",
     head: [

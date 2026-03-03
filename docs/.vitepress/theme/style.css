@@ -2,6 +2,7 @@
  * Customize default theme styling by overriding CSS variables:
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&display=swap");
 
 /**
  * Colors
@@ -44,6 +45,18 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  --color-blue-redek: #33bcff;
+  --color-red-redek: #fd4017;
+
+  /* Définition des variables de VitePress */
+  --vp-font-family-base: "Inter", sans-serif;
+  --vp-font-family-mono: monospace;
+
+  /* Police personnalisée pour les titres */
+  --font-family-redek: "Bebas Neue", sans-serif;
+}
+
+:root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -72,15 +85,15 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     220deg,
-    #45458b,
-    #33bcff
+    var(--color-red-redek),
+    var(--color-blue-redek)
   ) !important;
 
   /* Première couleur du halo */
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #45458b 50%,
-    #33bcff 50%
+    var(--color-red-redek) 50%,
+    var(--color-blue-redek) 50%
   ) !important;
 }
 
@@ -142,16 +155,27 @@
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
   /* Définit la couleur pour tout le site */
-  --vp-nav-bg-color: #33bcff;
+  --vp-nav-bg-color: var(--color-blue-redek);
 }
 
 /**
  * Component: Nav
  * -------------------------------------------------------------------------- */
+:root {
+  /* On définit la hauteur totale souhaitée ici */
+  --vp-nav-height: 80px;
+}
+@media (max-width: 768px) {
+  :root {
+    --vp-nav-height: 60px;
+  }
+}
+
 .VPNav {
-  background-color: var(--vp-nav-bg-color) !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: var(--vp-nav-bg-color);
+  display: flex;
+  align-items: center;
+  height: var(--vp-nav-height);
   font-weight: bold;
 }
 
@@ -160,17 +184,35 @@
 }
 
 .VPNavBarTitle .title {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .VPNavBarTitle .VPImage {
-  height: 60px;
+  height: 50px;
   width: auto;
 }
 
-/* On supprime le divider du header */
-.VPNavBar .divider {
-  display: none !important;
+.VPNavBar .content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end; /* Pousse tout vers la droite */
+  align-items: center;
+}
+/* On s'assure que le menu principal (s'il y en a un) est aussi à droite */
+.VPNavBarMenu {
+  margin-left: auto;
+  margin-right: 20px; /* Espace entre le menu et le switch/réseaux */
+}
+
+/* Ajustement de l'ordre visuel si besoin */
+.VPNavBarAppearance {
+  order: 2; /* Place le switch après le menu */
+  margin-left: 20px;
+}
+
+.VPNavBarSocialLinks {
+  order: 3; /* Place les liens sociaux en dernier */
+  margin-left: 30px;
 }
 
 .VPFooter {

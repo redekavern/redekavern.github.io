@@ -199,27 +199,12 @@
   align-items: center;
   line-height: 1.6;
 }
-.custom-home-content {
-  max-width: 1152px;
-  margin: 40px auto;
-  padding: 0 24px;
-  text-align: center;
-}
 
-/* Style pour les titres à l'intérieur de l'article importé */
-.custom-home-content h1,
-.custom-home-content h2 {
-  border-top: none;
-  margin-top: 0;
-}
-
-/* Centre toutes les images à l'intérieur de custom-home-content */
-.custom-home-content img {
-  display: block; /* Force l'image à se comporter comme un bloc */
-  margin-left: auto; /* Marge automatique à gauche */
-  margin-right: auto; /* Marge automatique à droite */
-
-  /* Optionnel : un peu de style pour le rendu */
-  border-radius: 8px; /* Angles arrondis */
-  max-width: 100%; /* S'adapte aux mobiles */
+.img-post {
+  max-width: 100%; /* S'adapte à l'écran du téléphone */
+  height: auto;
+  border-radius: 8px; /* Optionnel : arrondit les coins */
+  /*margin: 1rem auto;  Centre l'image */
+  display: block;
+  width: 800px; /* Force la largeur */
 }

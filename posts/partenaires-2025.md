@@ -3,8 +3,8 @@ title: La soirée partenaires 2025
 date: 01/11/2025
 ---
 
-![La soirée partenaires 2025](/photos/2025/partenaires-2025.webp)
+<img src="/photos/2025/partenaires-2025.webp" alt="La soirée partenaires 2025" class="img-post" />
 
-### Nous nous sommes retrouvés avec nos partenaires pour une soirée conviviale au Level 3 de Vern sur Seiche
+### Soirée partenaires : un beau moment de partage et de convivialité au Level 3 de Vern sur Seiche.
 
-Retrouveez tous nos [partenaires ici](/partenaires.md).
+Retrouvez tous nos [partenaires ici](/partenaires.md).

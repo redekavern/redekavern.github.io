@@ -10,7 +10,8 @@ const albums = [
     titre: "Édition 2025",
     description: "Toutes les photos de la course, du village et des podiums.",
     couverture: "/photos/covers/cover-2025.webp", // Image locale pour l'aperçu
-    lienExterne: "https://redekavern35.wordpress.com/photos-2025/",
+    // lienExterne: "https://redekavern35.wordpress.com/photos-2025/",
+    lienExterne: "/pages/photos-2025.html",
     // nbPhotos: "450 photos"
   },
   {

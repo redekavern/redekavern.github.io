@@ -7,6 +7,7 @@ import './style.css'
 import PostList from './components/PostList.vue'
 import ArchiveList from './components/ArchiveList.vue'
 import SocialFooter from './components/SocialFooter.vue'
+import CloudinaryLightbox from './components/CloudinaryLightbox.vue'
 
 export default {
     extends: DefaultTheme,
@@ -21,5 +22,6 @@ export default {
         // On enregistre le composant globalement
         app.component('PostList', PostList)
         app.component('ArchiveList', ArchiveList)
+        app.component('CloudinaryLightbox', CloudinaryLightbox)
     }
 } satisfies Theme

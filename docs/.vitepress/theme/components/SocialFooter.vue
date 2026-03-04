@@ -4,7 +4,9 @@ import { Icon } from '@iconify/vue'
 import phoneIcon from '@iconify-icons/lucide/phone'
 import mailIcon from '@iconify-icons/lucide/mail'
 import facebookIcon from '@iconify-icons/mdi/facebook'
-import instagramIcon from '@iconify-icons/mdi/instagram'</script>
+import instagramIcon from '@iconify-icons/mdi/instagram'
+import linkedinIcon from '@iconify-icons/mdi/linkedin'
+</script>
 
 <template>
     <footer class="custom-footer">
@@ -25,6 +27,11 @@ import instagramIcon from '@iconify-icons/mdi/instagram'</script>
 
             <a href="https://www.instagram.com/redekavern/" target="_blank" aria-label="Instagram">
                 <Icon :icon="instagramIcon" width="24" height="24" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/redek-%C3%A0-vern-b29916269/recent-activity/all/" target="_blank"
+                aria-label="Linkedin">
+                <Icon :icon="linkedinIcon" width="24" height="24" />
             </a>
         </div>
 

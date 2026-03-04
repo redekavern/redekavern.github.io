@@ -49,7 +49,8 @@ export default defineConfig({
 
         socialLinks: [
             { icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100090918943830&locale=fr_FR' },
-            { icon: 'instagram', link: 'https://www.instagram.com/redekavern/' }
+            { icon: 'instagram', link: 'https://www.instagram.com/redekavern/' },
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/redek-%C3%A0-vern-b29916269/recent-activity/all/' }
         ],
 
         // search: {

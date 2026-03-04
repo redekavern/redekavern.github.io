@@ -45,8 +45,13 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --color-blue-redek: #33bcff;
-  --color-red-redek: #fd4017;
+  --color-redek-blue: #33bcff;
+  --color-redek-blue-soft: #99deff;
+  --color-redek-blue-pastel: #e6f7ff;
+
+  --color-redek-red: #fd4017;
+  --color-redek-red-soft: #ff9b85;
+  --color-redek-red-pastel: #fff0ed;
 
   /* Définition des variables de VitePress */
   --vp-font-family-base: "Inter", sans-serif;
@@ -85,15 +90,15 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     220deg,
-    var(--color-red-redek),
-    var(--color-blue-redek)
+    var(--color-redek-red),
+    var(--color-redek-blue)
   ) !important;
 
   /* Première couleur du halo */
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    var(--color-red-redek) 50%,
-    var(--color-blue-redek) 50%
+    var(--color-redek-red) 50%,
+    var(--color-redek-blue) 50%
   ) !important;
 }
 
@@ -155,7 +160,7 @@
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
   /* Définit la couleur pour tout le site */
-  --vp-nav-bg-color: var(--color-blue-redek);
+  --vp-nav-bg-color: var(--color-redek-blue);
 }
 
 /**

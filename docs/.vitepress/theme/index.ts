@@ -8,6 +8,7 @@ import PostList from './components/PostList.vue'
 import ArchiveList from './components/ArchiveList.vue'
 import SocialFooter from './components/SocialFooter.vue'
 import CloudinaryLightbox from './components/CloudinaryLightbox.vue'
+import BandeauPartenaires from './components/BandeauPartenaires.vue'
 
 export default {
     extends: DefaultTheme,
@@ -23,5 +24,6 @@ export default {
         app.component('PostList', PostList)
         app.component('ArchiveList', ArchiveList)
         app.component('CloudinaryLightbox', CloudinaryLightbox)
+        app.component('BandeauPartenaires', BandeauPartenaires)
     }
 } satisfies Theme

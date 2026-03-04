@@ -23,4 +23,19 @@ hero:
 #     details: Vous souhaitez devenir bénévole ? Contactez nous.
 ---
 
+<script setup>
+import { onMounted, ref } from 'vue'
+// Assurez-vous que le chemin vers votre fichier JS est correct
+import { listePartenaires } from './.vitepress/data/partenaires.js'
+
+const partenaires = ref([])
+
+onMounted(() => {
+  // On appelle la fonction pour avoir le tableau mélangé au chargement
+  partenaires.value = listePartenaires()
+})
+</script>
+
+<BandeauPartenaires :partenaires="partenaires" />
+
 <PostList />

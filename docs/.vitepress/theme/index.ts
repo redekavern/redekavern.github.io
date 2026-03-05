@@ -9,6 +9,7 @@ import ArchiveList from './components/ArchiveList.vue'
 import SocialFooter from './components/SocialFooter.vue'
 import CloudinaryLightbox from './components/CloudinaryLightbox.vue'
 import BandeauPartenaires from './components/BandeauPartenaires.vue'
+import CookieBanner from './components/CookieBanner.vue'
 
 export default {
     extends: DefaultTheme,
@@ -16,7 +17,10 @@ export default {
         return h(DefaultTheme.Layout, null, {
             // On utilise le slot 'doc-footer-before' ou 'nav-screen-content-after' 
             // Mais pour le footer global, on utilise souvent 'layout-bottom'
-            'layout-bottom': () => h(SocialFooter)
+            'layout-bottom': () => [
+                h(SocialFooter),
+                h(CookieBanner)
+            ]
         })
     },
     enhanceApp ({ app }) {

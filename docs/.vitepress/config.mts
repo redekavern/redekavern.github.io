@@ -22,6 +22,13 @@ export default defineConfig({
         ['meta', { property: 'og:type', content: 'website' }],
         ['meta', { property: 'og:locale', content: 'fr_FR' }],
         ['meta', { property: 'og:title', content: 'Redek à Vern' }],
+        ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-G2D2YZPCFF' }],
+        // Configuration de la propriété
+        ['script', {}, `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-G2D2YZPCFF');`
+        ]
 
     ],
     themeConfig: {

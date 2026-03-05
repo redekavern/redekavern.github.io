@@ -9,6 +9,8 @@ onMounted(() => {
     if (!consent) {
         isVisible.value = true
     }
+    // isVisible.value = true;
+    // console.log("Bandeau chargé ! Valeur isVisible :", isVisible.value)
 })
 
 const acceptCookies = () => {
@@ -25,81 +27,96 @@ const declineCookies = () => {
 </script>
 
 <template>
-    <Transition name="fade">
-        <div v-if="isVisible" class="cookie-banner">
-            <div class="cookie-content">
-                <p>
-                    🏃 <b>La Redek</b> utilise des cookies pour analyser l'audience et améliorer votre expérience.
-                </p>
-                <div class="cookie-actions">
-                    <button @click="acceptCookies" class="btn-accept">Accepter</button>
-                    <button @click="declineCookies" class="btn-decline">Refuser</button>
-                </div>
+    <div v-if="isVisible" class="cookie-banner">
+        <div class="cookie-content">
+            <p>
+                🏃 <b>La Redek</b> utilise des cookies pour analyser l'audience et améliorer votre expérience.
+            </p>
+            <div class="cookie-actions">
+                <button @click="acceptCookies" class="btn-accept">Accepter</button>
+                <button @click="declineCookies" class="btn-decline">Refuser</button>
             </div>
         </div>
-    </Transition>
+    </div>
 </template>
 
 <style scoped>
 .cookie-banner {
     position: fixed !important;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 500px;
-    background: var(--vp-c-bg-soft);
-    border: 2px solid #33bcff;
-    /* Votre bleu Redek */
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-    padding: 20px;
+    bottom: 30px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 10001 !important;
+    /* On monte encore d'un cran */
+
+    width: 90% !important;
+    max-width: 480px !important;
+    height: auto !important;
+    /* Permet au cadre de grandir avec le texte */
+    min-height: 150px !important;
+    /* Sécurité pour ne pas qu'il soit trop plat */
+    padding: 30px !important;
+    /* Plus d'espace pour que ça respire */
+    display: flex !important;
+    /* On passe en flex pour tout aligner */
+    flex-direction: column !important;
+
+
+    /* FORCE LE FOND SOMBRE ICI */
+    background: #1a1c1e !important;
+    background-color: #1a1c1e !important;
+
+    /* On s'assure que rien n'est transparent */
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    /* Style Redek */
+    color: #ffffff !important;
+    border: 2px solid #33bcff !important;
+    border-radius: 20px !important;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8) !important;
+
+    display: block !important;
 }
 
 .cookie-content {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    text-align: center !important;
+    visibility: visible !important;
+}
+
+.cookie-content p {
+    margin: 0 !important;
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
 }
 
 .cookie-actions {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+    display: flex !important;
+    gap: 12px !important;
+    justify-content: center !important;
+    margin-top: 8px !important;
 }
 
 button {
-    padding: 8px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s;
+    padding: 10px 24px !important;
+    border-radius: 25px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    font-size: 0.9rem !important;
+    border: none !important;
 }
 
 .btn-accept {
-    background: #33bcff;
-    color: white;
-    border: none;
+    background-color: #33bcff !important;
+    color: white !important;
 }
 
 .btn-decline {
-    background: transparent;
-    border: 1px solid var(--vp-c-divider);
-}
-
-button:hover {
-    transform: scale(1.05);
-}
-
-.fade-enter-active,
-.fade-leave-active {
-    transition: opacity 0.5s;
-}
-
-.fade-enter-from,
-.fade-leave-to {
-    opacity: 0;
+    background-color: transparent !important;
+    color: var(--vp-c-text-2) !important;
+    border: 1px solid var(--vp-c-divider) !important;
 }
 </style>

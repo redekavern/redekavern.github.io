@@ -30,7 +30,11 @@ const declineCookies = () => {
     <div v-if="isVisible" class="cookie-banner">
         <div class="cookie-content">
             <p>
-                🏃 <b>La Redek</b> utilise des cookies pour analyser l'audience et améliorer votre expérience.
+                <span class="emoji">🏃</span>
+                <strong>Respect de votre vie privée</strong><br>
+                La Redek utilise des cookies uniquement pour mesurer l'audience du site.
+                Ces données sont anonymisées, <b>ne sont pas utilisées pour la publicité</b>
+                et ne sont <b>jamais revendues</b>.
             </p>
             <div class="cookie-actions">
                 <button @click="acceptCookies" class="btn-accept">Accepter</button>

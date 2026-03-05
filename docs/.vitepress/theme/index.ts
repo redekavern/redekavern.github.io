@@ -13,6 +13,16 @@ import CookieBanner from './components/CookieBanner.vue'
 
 export default {
     extends: DefaultTheme,
+
+    enhanceApp ({ app }) {
+        // On enregistre le composant globalement
+        app.component('PostList', PostList)
+        app.component('ArchiveList', ArchiveList)
+        app.component('CloudinaryLightbox', CloudinaryLightbox)
+        app.component('BandeauPartenaires', BandeauPartenaires)
+        app.component('CookieBanner', CookieBanner)
+    },
+
     Layout () {
         return h(DefaultTheme.Layout, null, {
             // On utilise le slot 'doc-footer-before' ou 'nav-screen-content-after' 
@@ -23,11 +33,5 @@ export default {
             ]
         })
     },
-    enhanceApp ({ app }) {
-        // On enregistre le composant globalement
-        app.component('PostList', PostList)
-        app.component('ArchiveList', ArchiveList)
-        app.component('CloudinaryLightbox', CloudinaryLightbox)
-        app.component('BandeauPartenaires', BandeauPartenaires)
-    }
+
 } satisfies Theme

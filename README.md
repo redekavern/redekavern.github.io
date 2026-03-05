@@ -12,7 +12,12 @@ Ce projet est le site officiel de **La Redek à Vern**. Il est construit avec [V
 - **`docs/.vitepress/theme/components/`** : Composants Vue (Bandeau défilant, etc.).
 - **`public/`** : Stockage des images, logos et documents PDF.
 
----
+## ⚖️ Conformité RGPD
+
+Le site affiche un bandeau de consentement via le composant `CookieBanner.vue`.
+
+- Les choix sont stockés dans le `localStorage` du navigateur.
+- Le bandeau utilise les couleurs de la charte (#33bcff).
 
 ## 📝 Guide de mise à jour
 

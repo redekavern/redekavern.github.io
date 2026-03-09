@@ -19,4 +19,4 @@ pages:
     paths:
       - public
   only:
-    - main # Ou 'master' selon votre branche principale
+    - main

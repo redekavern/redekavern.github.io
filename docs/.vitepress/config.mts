@@ -17,7 +17,7 @@ export default defineConfig({
         ['meta', { property: 'og:image', content: 'https://redekavern.github.io/affiches/redek-2026.jpg' }],
         ['meta', { property: 'og:image:type', content: 'image/jpg' }],
         ['meta', { property: 'og:site_name', content: 'Redek à Vern' }],
-        ['meta', { property: 'og:url', content: 'https://redekavern1.gitlab.io/' }],
+        ['meta', { property: 'og:url', content: 'https://redekavern.github.io/' }],
         ['meta', { property: 'og:type', content: 'website' }],
         ['meta', { property: 'og:locale', content: 'fr_FR' }],
         ['meta', { property: 'og:title', content: 'Redek à Vern' }],

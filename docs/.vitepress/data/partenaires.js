@@ -33,7 +33,7 @@ export const partenaires = [
     { name: "Cerfrance Brocéliande", img: "/logos/partenaires/cerfrance.webp", url: "https://www.cerfrance-broceliande.fr/" },
     { name: "lhibiscusfleuriste", img: "/logos/partenaires/lhibiscusfleuriste.webp", url: "https://www.lhibiscusfleuriste.com/" },
     { name: "Carrefour City Bvd de Verdun", img: "/logos/partenaires/carrefour-city-verdun.webp", url: "https://www.carrefour.fr/magasin/city-rennes-verdun" },
-    { name: "Intersport", img: "/logos/partenaires/intersport.webp", url: "https://www.intersport.fr/" },
+    // { name: "Intersport", img: "/logos/partenaires/intersport.webp", url: "https://www.intersport.fr/" }, // supprimé le 16/03/2026 suite à réunion com
     { name: "Orange Bleue Wellness", img: "/logos/partenaires/orange-bleue-wellness.webp", url: "https://wellness.lorangebleue.fr/" },
     { name: "Carrefour Bourgbarré", img: "/logos/partenaires/carrefour-bourgbarre.webp", url: "https://www.carrefour.fr/" },
     { name: "Coiffure Emmara", img: "/logos/partenaires/emmara.webp", url: "https://www.facebook.com/coiffureemmaravern/" },

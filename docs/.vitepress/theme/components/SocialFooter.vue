@@ -6,6 +6,8 @@ import mailIcon from '@iconify-icons/lucide/mail'
 import facebookIcon from '@iconify-icons/mdi/facebook'
 import instagramIcon from '@iconify-icons/mdi/instagram'
 import linkedinIcon from '@iconify-icons/mdi/linkedin'
+import linktreeIcon from '@iconify-icons/tabler/brand-linktree'
+
 </script>
 
 <template>
@@ -32,6 +34,10 @@ import linkedinIcon from '@iconify-icons/mdi/linkedin'
             <a href="https://www.linkedin.com/in/redek-%C3%A0-vern-b29916269/recent-activity/all/" target="_blank"
                 aria-label="Linkedin">
                 <Icon :icon="linkedinIcon" width="24" height="24" />
+            </a>
+
+            <a href="https://linktr.ee/redeksite" target="_blank" aria-label="Linktree">
+                <Icon :icon="linktreeIcon" width="24" height="24" />
             </a>
         </div>
 

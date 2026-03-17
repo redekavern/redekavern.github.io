@@ -22,6 +22,19 @@ export default defineConfig({
         ['meta', { property: 'og:locale', content: 'fr_FR' }],
         ['meta', { property: 'og:title', content: 'Redek à Vern' }],
         ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-G2D2YZPCFF' }],
+        ['meta', {
+            'http-equiv': 'Content-Security-Policy', content: `
+          default-src 'self';
+          script-src 'self' 'unsafe-inline';
+          style-src 'self' 'unsafe-inline';
+          img-src 'self' data: https:;
+          font-src 'self' data:;
+          connect-src 'self' https://api.iconify.design https://api.simplesvg.com https://api.unisvg.com;
+        `.replace(/\s+/g, ' ').trim()
+        }
+        ],
+        ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+        ['meta', { 'http-equiv': 'X-Content-Type-Options', content: 'nosniff' }],
         // Configuration de la propriété
         ['script', {}, `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}

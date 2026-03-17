@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Redek à Vern"
   text: ""
-  tagline: Les courses à pied de l'US Vern
+  tagline: Les courses à pied de l'US Vern Athlétisme
   image:
     src: /affiches/redek-2026.jpg
     alt: Redek à Vern 2026

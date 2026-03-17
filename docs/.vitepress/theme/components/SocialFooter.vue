@@ -7,6 +7,7 @@ import facebookIcon from '@iconify-icons/mdi/facebook'
 import instagramIcon from '@iconify-icons/mdi/instagram'
 import linkedinIcon from '@iconify-icons/mdi/linkedin'
 import linktreeIcon from '@iconify-icons/tabler/brand-linktree'
+import stravaIcon from '@iconify-icons/mdi/strava'
 
 </script>
 
@@ -34,6 +35,10 @@ import linktreeIcon from '@iconify-icons/tabler/brand-linktree'
             <a href="https://www.linkedin.com/in/redek-%C3%A0-vern-b29916269/recent-activity/all/" target="_blank"
                 aria-label="Linkedin">
                 <Icon :icon="linkedinIcon" width="24" height="24" />
+            </a>
+
+            <a href="https://strava.app.link/gKwP673Yy1b" target="_blank" aria-label="Strava">
+                <Icon :icon="stravaIcon" width="24" height="24" />
             </a>
 
             <a href="https://linktr.ee/redeksite" target="_blank" aria-label="Linktree">

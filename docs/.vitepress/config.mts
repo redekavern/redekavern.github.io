@@ -25,10 +25,10 @@ export default defineConfig({
         ['meta', {
             'http-equiv': 'Content-Security-Policy', content: `
             default-src 'self';
-            img-src 'self'  https:;
-            font-src 'self';
+            script-src 'self' 'unsafe-inline';
+            img-src 'self' data: https:;
+            font-src 'self' https://fonts.gstatic.com;
             connect-src 'self' https://api.iconify.design;
-            frame-ancestors 'none';
             object-src 'none';
             base-uri 'self';
             form-action 'self';
@@ -75,7 +75,14 @@ export default defineConfig({
         socialLinks: [
             { icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100090918943830&locale=fr_FR' },
             { icon: 'instagram', link: 'https://www.instagram.com/redekavern/' },
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/redek-%C3%A0-vern-b29916269/recent-activity/all/' }
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/redek-%C3%A0-vern-b29916269/recent-activity/all/' },
+            {
+                icon: {
+                    svg: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><title xmlns="">strava</title><path fill="currentColor" d="m15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/></svg>'
+                },
+                link: 'https://strava.app.link/gKwP673Yy1b',
+                ariaLabel: 'strava'
+            }
         ],
 
         // search: {

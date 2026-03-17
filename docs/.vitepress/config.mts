@@ -24,18 +24,21 @@ export default defineConfig({
         ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-G2D2YZPCFF' }],
         ['meta', {
             'http-equiv': 'Content-Security-Policy', content: `
-          default-src 'self';
-        script-src 'self';
-        object-src 'none';
-        style-src 'self' 'unsafe-inline';
-        img-src 'self' data: https:;
-        connect-src 'self' https://api.iconify.design;
-        base-uri 'self';
-        form-action 'self';
-      `.replace(/\s+/g, ' ').trim()
+            default-src 'self';
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline';
+            img-src 'self' data: https:;
+            font-src 'self' data:;
+            connect-src 'self' https://api.iconify.design;
+            frame-ancestors 'none';
+            object-src 'none';
+            base-uri 'self';
+            form-action 'self';
+        `.replace(/\s+/g, ' ').trim()
         }
         ],
-        ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+        ['meta', { 'http-equiv': 'X-Content-Type-Options', content: 'nosniff' }],
+        ['meta', { name: 'referrer', content: 'strict-origin-when-cross-origin' }],
         ['meta', { 'http-equiv': 'X-Content-Type-Options', content: 'nosniff' }],
         // Configuration de la propriété
         ['script', {}, `window.dataLayer = window.dataLayer || [];

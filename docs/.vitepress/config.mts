@@ -25,10 +25,8 @@ export default defineConfig({
         ['meta', {
             'http-equiv': 'Content-Security-Policy', content: `
             default-src 'self';
-            script-src 'self' 'unsafe-inline';
-            style-src 'self' 'unsafe-inline';
-            img-src 'self' data: https:;
-            font-src 'self' data:;
+            img-src 'self'  https:;
+            font-src 'self';
             connect-src 'self' https://api.iconify.design;
             frame-ancestors 'none';
             object-src 'none';

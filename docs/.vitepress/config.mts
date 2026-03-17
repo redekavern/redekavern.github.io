@@ -21,6 +21,7 @@ export default defineConfig({
         ['meta', { property: 'og:type', content: 'website' }],
         ['meta', { property: 'og:locale', content: 'fr_FR' }],
         ['meta', { property: 'og:title', content: 'Redek à Vern' }],
+        ['meta', { property: 'og:description', content: 'Redek à Vern : participez à nos courses annuelles à Vern-sur-Seiche. Une partie du bénéfice est reversé au profit du Rire Médecin. Retrouvez les parcours, les horaires et inscrivez-vous en ligne pour soutenir une noble cause.' }],
         ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-G2D2YZPCFF' }],
         ['meta', {
             'http-equiv': 'Content-Security-Policy', content: `

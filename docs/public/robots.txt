@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://redekavern.github.io/sitemap.xml

@@ -4,12 +4,16 @@ const isGitLab = process.env.GITLAB_CI === 'true';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
     lang: 'fr-FR',
     // base: isGitLab ? '/redek/' : '/',
     base: '/',
     srcDir: '.',
     title: "Redek à Vern",
     description: "Les courses à pied de l'US Vern sur Seiche Athlétisme",
+    sitemap: {
+        hostname: 'https://redekavern.github.io'
+    },
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'twitter:site', content: '@redekavern' }],
@@ -50,6 +54,7 @@ export default defineConfig({
         ]
 
     ],
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/logos/logo-redek.webp',
@@ -85,6 +90,8 @@ export default defineConfig({
                 ariaLabel: 'strava'
             }
         ],
+
+
 
         // search: {
         //     provider: 'local'

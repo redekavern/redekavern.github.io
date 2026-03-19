@@ -45,7 +45,7 @@ const courses = [
     lienTrace: ""
   },
   {
-    nom: "La randonnée",
+    nom: 'La randonnée "U Express Vern/Seiche"',
     distance: "11,1 km",
     image: "randonnee.png",
     description: "Pour découvrir Vern sans pression.",

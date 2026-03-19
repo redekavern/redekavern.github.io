@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Les courses à pied de l'US Vern Athlétisme
   image:
-    src: /affiches/redek-2026.jpg
+    src: /affiches/redek-2026.webp
     alt: Redek à Vern 2026
   actions:
     - theme: brand

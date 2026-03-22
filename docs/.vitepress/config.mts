@@ -33,7 +33,7 @@ export default defineConfig({
             script-src 'self' 'unsafe-inline';
             img-src 'self' data: https:;
             font-src 'self' https://fonts.gstatic.com;
-            connect-src 'self' https://api.iconify.design;
+            connect-src 'self' https://api.iconify.design https://res.cloudinary.com;
             object-src 'none';
             base-uri 'self';
             form-action 'self';

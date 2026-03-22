@@ -57,7 +57,11 @@ export default defineConfig({
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: '/logos/logo-redek.webp',
+        logo: {
+            src: '/logos/logo-redek.webp',
+            alt: 'Logo de la course à pied Redek à Vern'
+        },
+        siteTitle: false,
         nav: [
             { text: 'Accueil', link: '/' },
             { text: 'Contacts', link: '/contacts' },

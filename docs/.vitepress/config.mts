@@ -18,7 +18,7 @@ export default defineConfig({
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'twitter:site', content: '@redekavern' }],
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-        ['meta', { property: 'og:image', content: 'https://redekavern.github.io/affiches/redek-2026-horizontal.webp' }],
+        ['meta', { property: 'og:image', content: 'https://redekavern.github.io/affiches/redek-2026-2216x608.webp' }],
         ['meta', { property: 'og:image:type', content: 'image/jpg' }],
         ['meta', { property: 'og:site_name', content: 'Redek à Vern' }],
         ['meta', { property: 'og:url', content: 'https://redekavern.github.io/' }],

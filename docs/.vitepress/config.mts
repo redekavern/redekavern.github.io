@@ -11,8 +11,15 @@ export default defineConfig({
     srcDir: '.',
     title: "Redek à Vern",
     description: "Les courses à pied de l'US Vern sur Seiche Athlétisme",
+    lastUpdated: true,
     sitemap: {
-        hostname: 'https://redekavern.github.io'
+        hostname: 'https://redekavern.github.io',
+        xmlns: { // trim the xml namespace
+            news: false,
+            xhtml: false,
+            image: false,
+            video: false,
+        }
     },
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],

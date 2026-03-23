@@ -56,7 +56,7 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-G2D2YZPCFF', {
-    'cookie_domain': 'redekavern1.gitlab.io',
+    'cookie_domain': 'redekavern1.github.io',
     'cookie_flags': 'SameSite=None;Secure'
   });`
         ]

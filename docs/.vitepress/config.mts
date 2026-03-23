@@ -45,12 +45,11 @@ export default defineConfig({
             object-src 'none';
             base-uri 'self';
             form-action 'self';
+            frame-ancestors 'self';
         `.replace(/\s+/g, ' ').trim()
-        }
-        ],
+        }],
         ['meta', { 'http-equiv': 'X-Content-Type-Options', content: 'nosniff' }],
         ['meta', { name: 'referrer', content: 'strict-origin-when-cross-origin' }],
-        ['meta', { 'http-equiv': 'X-Content-Type-Options', content: 'nosniff' }],
         // Configuration de la propriété
         ['script', {}, `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}

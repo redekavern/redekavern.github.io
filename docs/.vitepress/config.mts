@@ -37,7 +37,7 @@ export default defineConfig({
         ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-G2D2YZPCFF' }],
         ['meta', {
             'http-equiv': 'Content-Security-Policy', content: `
-            default-src 'none';
+            default-src 'self';
             script-src 'self' 'unsafe-inline';
             img-src 'self' data: https:;
             font-src 'self' https://fonts.gstatic.com;

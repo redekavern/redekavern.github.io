@@ -41,7 +41,7 @@ export default defineConfig({
             script-src 'self' 'unsafe-inline';
             img-src 'self' data: https:;
             font-src 'self' https://fonts.gstatic.com;
-            connect-src 'self' https://api.iconify.design https://res.cloudinary.com;
+            connect-src 'self' https://api.iconify.design https://res.cloudinary.com https://region1.google-analytics.com;
             object-src 'none';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             base-uri 'self';

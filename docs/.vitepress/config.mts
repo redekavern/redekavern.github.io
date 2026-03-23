@@ -23,6 +23,7 @@ export default defineConfig({
     },
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ['meta', { name: 'author', content: 'Redek à Vern Team' }],
         ['meta', { name: 'twitter:site', content: '@redekavern' }],
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
         ['meta', { property: 'og:image', content: 'https://redekavern.github.io/affiches/redek-2026-2216x608.webp' }],

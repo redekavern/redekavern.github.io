@@ -38,11 +38,12 @@ export default defineConfig({
         ['meta', {
             'http-equiv': 'Content-Security-Policy', content: `
             default-src 'self';
-            script-src 'self' ;
+            script-src 'self' 'unsafe-inline';
             img-src 'self' data: https:;
             font-src 'self' https://fonts.gstatic.com;
             connect-src 'self' https://api.iconify.design https://res.cloudinary.com;
             object-src 'none';
+            style-src 'self' 'unsafe-inline';
             base-uri 'self';
             form-action 'self';
             frame-ancestors 'self';

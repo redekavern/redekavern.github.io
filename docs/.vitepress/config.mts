@@ -43,7 +43,7 @@ export default defineConfig({
             font-src 'self' https://fonts.gstatic.com;
             connect-src 'self' https://api.iconify.design https://res.cloudinary.com;
             object-src 'none';
-            style-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             base-uri 'self';
             form-action 'self';
             frame-ancestors 'self';

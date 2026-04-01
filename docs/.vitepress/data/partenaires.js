@@ -71,6 +71,7 @@ export const partenaires = [
     { name: "Carrefour Market Thorigné Fouillard", img: "/logos/partenaires/carrefour-market-thorigne-fouillard.webp", url: "https://www.carrefour.fr/magasin/market-thorigne-fouillard" },
     { name: "Garage Fillodeau", img: "/logos/partenaires/fillodeau.webp", url: "https://www.facebook.com/RENAULT.FILLODEAU/?locale=fr_FR" },
     { name: "C Toutain & A Lavenne Immobilier", img: "/logos/partenaires/ctoutain-immo.webp", url: "https://www.ctoutainimmobilier.com/" },
+    { name: "Mickaël Rénov'Peinture", img: "/logos/partenaires/logo-mickael-renov-peinture.webp", url: "https://www.mickael-renov-peinture.com/" },
 ]
 
 // 2. Votre fonction de mélange (Algorithme de Fisher-Yates)

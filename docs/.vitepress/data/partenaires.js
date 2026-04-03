@@ -60,6 +60,7 @@ export const partenaires = [
     { name: "Mauger Hardy Thermie", img: "/logos/partenaires/mauger.webp", url: "https://www.hardythermie.fr/" },
     { name: "Merel", img: "/logos/partenaires/merel.webp", url: "https://www.merel-horticulture.fr/" },
     { name: "Mickaël Rénov'Peinture", img: "/logos/partenaires/logo-mickael-renov-peinture.webp", url: "https://www.mickael-renov-peinture.com/" },
+    { name: "NBA L'automobile", img: "/logos/partenaires/nba_l_automobile.webp", url: "https://www.nba.fr/" },
     { name: "Netto", img: "/logos/partenaires/netto.webp", url: "https://www.netto.fr" },
     { name: "Olga", img: "/logos/partenaires/olga.webp", url: "https://olga.fr/" },
     { name: "Optique Manako", img: "/logos/partenaires/manako.webp", url: "https://www.optique-manako.fr/" },

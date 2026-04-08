@@ -11,7 +11,6 @@ export const partenaires = [
     { name: "Brin d'Herbe", img: "/logos/partenaires/brin-dherbe.webp", url: "https://brindherbe35.fr/" },
     { name: "Bruno Méril Coiffure", img: "/logos/partenaires/bruno-meril.webp", url: "https://www.brunomerilcoiffure.com/" },
     { name: "C Toutain & A Lavenne Immobilier", img: "/logos/partenaires/ctoutain-immo.webp", url: "https://www.ctoutainimmobilier.com/" },
-    // { name: "Carrefour Bourgbarré", img: "/logos/partenaires/carrefour-bourgbarre.webp", url: "https://www.carrefour.fr/" },
     { name: "Carrefour City Alma", img: "/logos/partenaires/carrefour-city-alma.webp", url: "https://www.carrefour.fr/magasin/city-rennes-alma" },
     { name: "Carrefour City Bvd de Metz", img: "/logos/partenaires/carrefour-city-metz.webp", url: "https://www.carrefour.fr/magasin/city-rennes-metz" },
     { name: "Carrefour City Bvd de Verdun", img: "/logos/partenaires/carrefour-city-verdun.webp", url: "https://www.carrefour.fr/magasin/city-rennes-verdun" },
@@ -62,17 +61,18 @@ export const partenaires = [
     { name: "Mickaël Rénov'Peinture", img: "/logos/partenaires/logo-mickael-renov-peinture.webp", url: "https://www.mickael-renov-peinture.com/" },
     { name: "NBA L'automobile", img: "/logos/partenaires/nba_l_automobile.webp", url: "https://www.nba.fr/" },
     { name: "Netto", img: "/logos/partenaires/netto.webp", url: "https://www.netto.fr" },
+    { name: "O'Dela", img: "/logos/partenaires/odela.webp", url: "https://www.facebook.com/p/ODela-Vern-61580537056020/" },
     { name: "Olga", img: "/logos/partenaires/olga.webp", url: "https://olga.fr/" },
     { name: "Optique Manako", img: "/logos/partenaires/manako.webp", url: "https://www.optique-manako.fr/" },
     { name: "Orange Bleue Wellness", img: "/logos/partenaires/orange-bleue-wellness.webp", url: "https://wellness.lorangebleue.fr/" },
     { name: "Passage Bleu", img: "/logos/partenaires/passage-bleu.webp", url: "https://www.passagebleu.com/" },
     { name: "Poézenn", img: "/logos/partenaires/poezenn.webp", url: "https://www.planity.com/poezenn-vern-sur-seiche-35770" },
     { name: "Qualitec", img: "/logos/partenaires/qualitec.webp", url: "https://www.qualitec.bzh/" },
+    { name: "Rénoval", img: "/logos/partenaires/renoval.webp", url: "https://www.renoval-veranda.com/?utm_source=redekavern" },
     { name: "Running Conseil", img: "/logos/partenaires/running-conseil.webp", url: "https://www.running-conseil.com/runningconseil-rennes.html" },
     { name: "Sofibac", img: "/logos/partenaires/sofibac.webp", url: "https://www.sofibac.fr" },
     { name: "Surcin", img: "/logos/partenaires/surcin.webp", url: "https://www.linkedin.com/company/surcin-travaux-publics/?originalSubdomain=fr" },
     { name: "Total Energies", img: "/logos/partenaires/totalenergies.webp", url: "https://www.totalenergies.fr" },
-    // { name: "Intersport", img: "/logos/partenaires/intersport.webp", url: "https://www.intersport.fr/" }, // supprimé le 16/03/2026 suite à réunion com
 ]
 // 2. Votre fonction de mélange (Algorithme de Fisher-Yates)
 const melanger = (array) => {

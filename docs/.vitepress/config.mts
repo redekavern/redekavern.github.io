@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
+import path from 'node:path'
 
 const isGitLab = process.env.GITLAB_CI === 'true';
 
@@ -118,4 +120,15 @@ export default defineConfig({
 
     },
     // outDir: '../public',
+    vite: {
+        resolve: {
+            alias: {
+                // On force le chemin absolu depuis la racine du projet
+                // __dirname est le dossier .vitepress
+                '@data': path.resolve(__dirname, 'data'),
+                // Optionnel : un alias vers le dossier theme pour vos composants
+                '@theme': path.resolve(__dirname, 'theme')
+            }
+        }
+    }
 })

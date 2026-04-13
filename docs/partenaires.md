@@ -36,7 +36,7 @@ onMounted(() => {
   </a>
 </div>
 
-<style >
+<style scoped>
 .intro-text {
   font-size: 1.25rem; /* Un peu plus grand que le texte normal */
   line-height: 1.6;

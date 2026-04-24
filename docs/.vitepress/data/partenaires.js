@@ -72,6 +72,7 @@ export const partenaires = [
     { name: "Running Conseil", img: "/logos/partenaires/running-conseil.webp", url: "https://www.running-conseil.com/runningconseil-rennes.html" },
     { name: "Sofibac", img: "/logos/partenaires/sofibac.webp", url: "https://www.sofibac.fr" },
     { name: "Surcin", img: "/logos/partenaires/surcin.webp", url: "https://www.linkedin.com/company/surcin-travaux-publics/?originalSubdomain=fr" },
+    { name: "Topette la Galette", img: "/logos/partenaires/topettelagalette.webp", url: "https://restauration-rapide.restaurants-de-france.fr/topette-la-galette-3387891.html" },
     { name: "Total Energies", img: "/logos/partenaires/totalenergies.webp", url: "https://www.totalenergies.fr" },
 ]
 // 2. Votre fonction de mélange (Algorithme de Fisher-Yates)

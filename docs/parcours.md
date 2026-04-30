@@ -1,12 +1,12 @@
 ---
-title: Les Parcours 2025
+title: Les Parcours 2026
 editLink: false
 ---
 
 <script setup>
 // 1. On définit la liste des courses ici (facile à modifier pour 2026 !)
-const annee = "2025"
-const dossier = `/parcours/${annee}` // Attention : mettez `/redek/parcours/${annee}` si vous n'avez pas de domaine unique
+const annee = "2026"
+const dossier = `/parcours/${annee}` 
 
 const courses = [
   {
@@ -55,6 +55,24 @@ const courses = [
 </script>
 
 # Les parcours de l'édition {{ annee }}
+
+<div style="border: 1px solid #ddd; border-top: 5px solid #0056b3; padding: 20px; border-radius: 4px; background-color: #f8f9fa; margin-top: 2em; display: flex; align-items: center; gap: 20px;">
+    <div style="flex: 1;">
+        <div style="margin-bottom: 10px; font-size: 1.1em;">
+        Cette année, <strong><a href="https://www.e.leclerc/?srsltid=AfmBOopBOqlJ6TMXGMhTMxsNR0eF8qRRN1PQqD0ckg_TNVgA11SjAKwj" style="color: #0056b3; text-decoration: none;" target="_blank">Leclerc Val d’Orson</a></strong>
+        s’engage auprès des nouvelles générations avec le <strong>"Challenge Jeunes Leclerc Val d’Orson"</strong>.
+        </div>
+        <div style="margin: 0; color: #555;">
+        Ce partenariat permet de récompenser les lauréats (filles et garçons) de chaque catégorie jeune des différentes courses.
+        </div>
+    </div>
+    <div style="flex-shrink: 0; width: 120px;">
+        <a href="https://www.e.leclerc/?srsltid=AfmBOopBOqlJ6TMXGMhTMxsNR0eF8qRRN1PQqD0ckg_TNVgA11SjAKwj"  target="_blank">
+        <img src="/logos/partenaires/leclerc-vern.webp" alt="Logo Leclerc Val d'Orson" style="max-width: 100%; height: auto; display: block; border: none;">
+        </a>
+    </div>
+
+</div>
 
 Retrouvez ci-dessous le détail des épreuves.
 

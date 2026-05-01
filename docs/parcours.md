@@ -63,7 +63,7 @@ const courses = [
         s’engage auprès des nouvelles générations avec le <strong>"Challenge Jeunes Leclerc Val d’Orson"</strong>.
         </div>
         <div style="margin: 0; color: #555;">
-        Ce partenariat permet de récompenser les lauréats (filles et garçons) de chaque catégorie jeune des différentes courses.
+        Ce partenariat permet de récompenser les lauréats (filles et garçons) de chaque catégorie jeune du 5km et du 10km.
         </div>
     </div>
     <div style="flex-shrink: 0; width: 120px;">

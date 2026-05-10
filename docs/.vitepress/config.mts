@@ -43,7 +43,7 @@ export default defineConfig({
             script-src 'self' 'unsafe-inline' https://cloud.umami.is;
             img-src 'self' data: https:;
             font-src 'self' https://fonts.gstatic.com;
-            connect-src 'self' https://api.iconify.design https://res.cloudinary.com https://region1.google-analytics.com;
+            connect-src 'self' https://api.iconify.design https://res.cloudinary.com https://region1.google-analytics.com https://api-gateway.umami.dev;
             object-src 'none';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             base-uri 'self';

@@ -1,6 +1,6 @@
 ---
 title: La soirée partenaires 2026
-date: 09/04/2025
+date: 09/04/2026
 ---
 
 <img src="/photos/2026/partenaires-2026.webp" alt="La soirée partenaires 2026" class="img-post" />

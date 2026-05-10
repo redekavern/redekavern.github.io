@@ -1,6 +1,6 @@
 ---
 title: Redek à Vern 2026
-date: 19/03/2026
+date: 27/09/2026
 ---
 
 <img src="/affiches/redek_2026.webp" alt="Redek à Vern 2026" class="img-post" />

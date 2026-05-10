@@ -4,12 +4,13 @@ export default createContentLoader('posts/*.md', {
     includeSrc: true, // Charge le contenu Markdown brut
     render: true,     // Compile le Markdown en HTML (recommandé)
     transform (raw) {
-        return raw.map((post) => ({
-            title: post.frontmatter.title,
-            url: post.url,
-            content: post.html, // Le contenu HTML complet
-            date: formatDate(post.frontmatter.date)
-        }))
+        return raw.filter((post) => post.frontmatter.published !== false) // Filtrer les posts non publiés
+            .map((post) => ({
+                title: post.frontmatter.title,
+                url: post.url,
+                content: post.html, // Le contenu HTML complet
+                date: formatDate(post.frontmatter.date)
+            }))
             .sort((a, b) => b.date.time - a.date.time) // Trier par date décroissante
     }
 })

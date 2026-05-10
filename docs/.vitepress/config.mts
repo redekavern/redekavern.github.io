@@ -53,6 +53,12 @@ export default defineConfig({
         }],
         ['meta', { 'http-equiv': 'X-Content-Type-Options', content: 'nosniff' }],
         ['meta', { name: 'referrer', content: 'strict-origin-when-cross-origin' }],
+        // Bloc Umami
+        ['script', {
+            defer: 'true',
+            src: 'https://cloud.umami.is/script.js',
+            'data-website-id': '55711027-80ce-412e-8c88-9b4730928310'
+        }],
         // Configuration de la propriété
         ['script', {}, `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -64,7 +70,6 @@ export default defineConfig({
         ]
 
     ],
-
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: {

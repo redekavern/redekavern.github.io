@@ -10,6 +10,6 @@ Cette année, en participant à la Redek à Vern, vous aurez peut-être la chanc
 
 1. Déposez le coupon détachable de votre dossard dans l'urne prévue à cet effet avant le départ.
 
-2. Soyez présent lors du tirage au sort qui aura lieu juste après les course parmi tous les inscrits du 5 km, du 10 km et de la rando-marche.
+2. Soyez présent lors du tirage au sort qui aura lieu juste après les courses, parmi tous les inscrits du 5 km, du 10 km et de la rando-marche.
 
 ⚠️ Important : Votre présence est obligatoire au moment du tirage, et gardez bien votre dossard, il vous sera demandé pour pouvoir retirer votre lot !

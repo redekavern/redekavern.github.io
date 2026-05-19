@@ -14,7 +14,8 @@ const courses = [
     distance: "5 km",
     image: "5km.png",
     description: "Un tracé rapide pour les amateurs de vitesse.",
-    //lienTrace: "https://www.openrunner.com/..." 
+    // lienTrace: "https://www.openrunner.com/" ,
+    lienVideo:"https://youtu.be/psXU0jXax7E",
   },
   {
     nom: "La 10 km du BDS",
@@ -22,34 +23,44 @@ const courses = [
     image: "10km.png",
     description: "Le parcours à travers la vallée de la Seiche.",
     // lienTrace: "https://www.openrunner.com/..."
+        lienVideo:"https://youtu.be/5OD_R5B2I7A"
+
   },
   {
     nom: "Le parcours benjamins et minimes by CMB",
     // distance: "8 km",
     image: "benjamin-minime.png",
     description: "2 boucles calibrées pour les jeunes.",
-    lienTrace: ""
+    // lienTrace: "",
+            lienVideo:"https://youtu.be/dtfTsEj_JCE"
+
   },
   {
     nom: "Le parcours poussin by CMB",
     // distance: "8 km",
     image: "poussin.png",
     description: "1 boucle.",
-    lienTrace: ""
+    // lienTrace: "",
+            lienVideo:"https://youtu.be/PrWBmj072n8"
+
   },
   {
     nom: "Le parcours éveil athlé by CMB",
     // distance: "8 km",
     image: "eveil.png",
     description: "Quelques centaines de mètres pour faire plaisir aux plus jeunes.",
-    lienTrace: ""
+    // lienTrace: "",
+            lienVideo:"https://youtu.be/o8-rRxGayTA"
+
   },
   {
     nom: 'La randonnée "U Express Vern/Seiche"',
     distance: "11,1 km",
     image: "randonnee.png",
     description: "Pour découvrir Vern sans pression.",
-    lienTrace: ""
+    // lienTrace: "",
+            // lienVideo:"/parcours/2026/videos/rando.mp4"
+
   },
 ]
 </script>
@@ -89,9 +100,11 @@ Retrouvez ci-dessous le détail des épreuves.
     <h3>{{ course.nom }}</h3>
       <p>{{ course.description }}</p>
   </div>
+
   <div class="actions">
         <a :href="`${dossier}/${course.image}`" target="_blank" class="btn secondary">Plan</a>
         <a v-if="course.lienTrace" :href="course.lienTrace" target="_blank" class="btn primary">Tracé GPS</a>
+        <a v-if="course.lienVideo" :href="course.lienVideo" target="_blank" class="btn video">Vidéo</a>
       </div>
   </div>
 </div>
@@ -172,6 +185,11 @@ Retrouvez ci-dessous le détail des épreuves.
     color: var(--vp-c-brand-1) !important; 
     background-color: transparent;
     }
+
+.btn.video {
+  background: #e50914;
+  color: white !important;
+}
 
 .btn:hover { opacity: 0.8; }
 </style>

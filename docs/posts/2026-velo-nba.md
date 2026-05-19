@@ -12,4 +12,6 @@ Cette année, en participant à la Redek à Vern, vous aurez peut-être la chanc
 
 2. Soyez présent lors du tirage au sort qui aura lieu juste après les courses, parmi tous les inscrits du 5 km, du 10 km et de la rando-marche.
 
-⚠️ Important : Votre présence est obligatoire au moment du tirage, et gardez bien votre dossard, il vous sera demandé pour pouvoir retirer votre lot !
+3. Le tirage au sort sera réalisé **sur le podium lors de la remise des récompenses** à la fin du 10 km.
+
+⚠️ Important : Votre présence est obligatoire au moment du tirage! Gardez bien votre dossard, il vous sera demandé pour pouvoir retirer votre lot.

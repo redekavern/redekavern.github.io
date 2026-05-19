@@ -26,20 +26,27 @@ const verifyPassword = () => {
 </script>
 
 <!-- Écran de verrouillage -->
-<div v-if="!isAuthenticated" class="auth-container">
-  <h2 style="margin-top: 0;">Accès réservé</h2>
-  <p>Veuillez saisir le mot de passe pour accéder à cet annuaire :</p>
-  <div class="auth-form">
+<div v-if="!isAuthenticated" style="max-width: 400px; margin: 2rem auto; padding: 2rem; border: 1px solid var(--vp-c-divider); border-radius: 8px; background: var(--vp-c-bg-soft); text-align: center;">
+  <p>Cet espace est réservé aux bénévoles de la Redek. Saisissez le mot de passe fourni :</p>
+  
+  <!-- On utilise une balise <form> avec un @submit.prevent -->
+  <form @submit.prevent="verifyPassword">
+    <!-- Astuce : Un champ username caché pour feinter le navigateur -->
+    <input type="text" name="username" value="benevole" style="display:none;" autocomplete="username" />
     <input 
       v-model="passwordInput" 
       type="password" 
+      name="password"
       placeholder="Mot de passe" 
-      @keyup.enter="verifyPassword"
+      autocomplete="current-password"
+      style="width: 100%; padding: 10px; margin: 15px 0; border-radius: 6px; border: 1px solid var(--vp-c-brand-1); background: var(--vp-c-bg); color: var(--vp-c-text-1);"
     />
-    <button @click="verifyPassword">Accéder</button>
-  </div>
+    <!-- Le bouton devient un type="submit" -->
+    <button type="submit" class="btn-auth">Valider</button>
+  </form>
+  
+  <!-- <p v-if="errorMsg" style="color: #e50914; margin-top: 10px; font-weight: bold;">{{ errorMsg }}</p> -->
 </div>
-
 <!-- Contenu protégé -->
 <div v-else>
 

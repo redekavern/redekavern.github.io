@@ -7,8 +7,6 @@ date: 27/09/2026
 
 ### Réservez dès maintenant votre dimanche 27 septembre 2026 pour courir la Redek à Vern !
 
-Les inscriptions ouvrent bientôt
-
 Découvrez nos parcours adaptés à tous les niveaux, des coureurs confirmés aux jeunes champions, sans oublier les marcheurs !
 
 | Course                            | Distance | Description                                                                       |

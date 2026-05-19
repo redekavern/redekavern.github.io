@@ -6,6 +6,7 @@ import './style.css'
 
 import PostList from './components/PostList.vue'
 import ArchiveList from './components/ArchiveList.vue'
+import ActualiteList from './components/ActualiteList.vue'
 import SocialFooter from './components/SocialFooter.vue'
 import CloudinaryLightbox from './components/CloudinaryLightbox.vue'
 import BandeauPartenaires from './components/BandeauPartenaires.vue'
@@ -18,6 +19,7 @@ export default {
         // On enregistre le composant globalement
         app.component('PostList', PostList)
         app.component('ArchiveList', ArchiveList)
+        app.component('ActualiteList', ActualiteList)
         app.component('CloudinaryLightbox', CloudinaryLightbox)
         app.component('BandeauPartenaires', BandeauPartenaires)
         app.component('CookieBanner', CookieBanner)

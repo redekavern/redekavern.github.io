@@ -82,12 +82,14 @@ export default defineConfig({
         siteTitle: false,
         nav: [
             { text: 'Accueil', link: '/' },
+            { text: 'Actualités', link: '/actualites' },
             { text: 'Contacts', link: '/contacts' },
             // { text: 'Actualités', link: '/actualites' },
             { text: 'Partenaires', link: '/partenaires' },
             { text: 'Photos', link: '/photos' },
             { text: 'Les parcours', link: '/parcours' },
             { text: 'Les archives', link: '/archives' },
+            { text: '🔒 Bénévoles', link: '/benevoles' },
         ],
 
         // sidebar: [
@@ -104,6 +106,7 @@ export default defineConfig({
             { icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100090918943830&locale=fr_FR' },
             { icon: 'instagram', link: 'https://www.instagram.com/redekavern/' },
             { icon: 'linkedin', link: 'https://www.linkedin.com/in/redek-%C3%A0-vern-b29916269/recent-activity/all/' },
+            { icon: 'youtube', link: 'https://www.youtube.com/@redeksite' },
             {
                 icon: {
                     svg: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><title xmlns="">strava</title><path fill="currentColor" d="m15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/></svg>'

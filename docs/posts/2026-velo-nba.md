@@ -1,7 +1,9 @@
 ---
 title: Un cadeau exceptionnel de notre partenaire NBA L'automobile
-date: 19/05/2026
+date: 2026-05-18
 published: true
+tags:
+  - actu
 ---
 
 Cette année, en participant à la Redek à Vern, vous aurez peut-être la chance de repartir avec un **vélo à assistance électrique** d'une valeur de **1 000 €**, offert par notre partenaire [ <img src="/logos/partenaires/nba_l_automobile.webp" alt="NBA L'Automobile" style="height: 36px; vertical-align: middle; margin-left: 5px;">](https://www.nba.fr/)

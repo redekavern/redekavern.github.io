@@ -3,6 +3,7 @@ import { fileURLToPath, URL } from 'node:url'
 import path from 'node:path'
 
 const isGitLab = process.env.GITLAB_CI === 'true';
+const isProd = process.env.NODE_ENV === 'production';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -53,12 +54,7 @@ export default defineConfig({
         }],
         ['meta', { 'http-equiv': 'X-Content-Type-Options', content: 'nosniff' }],
         ['meta', { name: 'referrer', content: 'strict-origin-when-cross-origin' }],
-        // Bloc Umami
-        ['script', {
-            defer: 'true',
-            src: 'https://cloud.umami.is/script.js',
-            'data-website-id': '55711027-80ce-412e-8c88-9b4730928310'
-        }],
+
         // Configuration de la propriété
         ['script', {}, `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -67,7 +63,14 @@ export default defineConfig({
     'cookie_domain': 'redekavern.github.io',
     'cookie_flags': 'SameSite=None;Secure'
   });`
-        ]
+        ],
+
+        // Bloc Umami en prod uniquement
+        ...(isProd ? [['script', {
+            defer: 'true',
+            src: 'https://cloud.umami.is/script.js',
+            'data-website-id': '55711027-80ce-412e-8c88-9b4730928310'
+        }]] : []),
 
     ],
     themeConfig: {
@@ -110,7 +113,13 @@ export default defineConfig({
             }
         ],
 
-
+        lastUpdated: {
+            text: 'Mis à jour le',
+            formatOptions: {
+                dateStyle: 'short',     // Peut être 'full', 'long', 'medium', 'short'
+                timeStyle: 'short'      // Affiche l'heure (ex: 14:30)
+            }
+        }
 
         // search: {
         //     provider: 'local'

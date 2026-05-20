@@ -109,4 +109,15 @@ const verifyPassword = () => {
 }
 .auth-form button { background: var(--vp-c-brand-1); color: white; padding: 8px 16px; border-radius: 8px; font-weight: bold; }
 .auth-form button:hover { opacity: 0.9; }
+
+.btn-auth {
+  background: var(--vp-c-brand-1);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+.btn-auth:hover { opacity: 0.9; }
 </style>

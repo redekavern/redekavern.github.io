@@ -1,0 +1,2399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.outdooractive.com/GPX/Extensions/1 https://www.outdooractive.com/schema/gpx_extensions.xsd">
+  <metadata>
+    <name>RANDO REDEK 12km avec les 2 boucles</name>
+    <author>
+      <name>Eric BERNARD - Communauté</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/339933845"/>
+    <time>2026-04-29T11:30:49.596Z</time>
+    <extensions>
+      <oa:oaCategory>hikingTourTrail</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>RANDO REDEK 12km avec les 2 boucles</name>
+    <type>hikingTourTrail</type>
+    <trkseg>
+      <trkpt lat="48.044249" lon="-1.606377">
+        <ele>37.2</ele>
+        <name>Rue François Rabelais, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>18</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.044243" lon="-1.606392">
+        <ele>37.2</ele>
+      </trkpt>
+      <trkpt lat="48.044304" lon="-1.606445">
+        <ele>37.5</ele>
+      </trkpt>
+      <trkpt lat="48.04441" lon="-1.606539">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="48.044501" lon="-1.60629">
+        <ele>37.7</ele>
+      </trkpt>
+      <trkpt lat="48.044653" lon="-1.606417">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.044684" lon="-1.606468">
+        <ele>38.9</ele>
+      </trkpt>
+      <trkpt lat="48.044715" lon="-1.606448">
+        <ele>38.9</ele>
+      </trkpt>
+      <trkpt lat="48.044722" lon="-1.606398">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.044716" lon="-1.60599">
+        <ele>37.6</ele>
+      </trkpt>
+      <trkpt lat="48.044733" lon="-1.605431">
+        <ele>36.7</ele>
+      </trkpt>
+      <trkpt lat="48.044779" lon="-1.605222">
+        <ele>36.7</ele>
+      </trkpt>
+      <trkpt lat="48.044841" lon="-1.604999">
+        <ele>36.8</ele>
+      </trkpt>
+      <trkpt lat="48.044869" lon="-1.604915">
+        <ele>36.8</ele>
+      </trkpt>
+      <trkpt lat="48.044921" lon="-1.604956">
+        <ele>36.8</ele>
+      </trkpt>
+      <trkpt lat="48.044921" lon="-1.604947">
+        <ele>36.8</ele>
+        <name>Avenue de la Chalotais, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>18</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.044925" lon="-1.604839">
+        <ele>36.8</ele>
+      </trkpt>
+      <trkpt lat="48.044938" lon="-1.604775">
+        <ele>36.9</ele>
+      </trkpt>
+      <trkpt lat="48.044924" lon="-1.604742">
+        <ele>36.9</ele>
+      </trkpt>
+      <trkpt lat="48.044915" lon="-1.604704">
+        <ele>36.9</ele>
+      </trkpt>
+      <trkpt lat="48.044911" lon="-1.604665">
+        <ele>36.9</ele>
+      </trkpt>
+      <trkpt lat="48.044914" lon="-1.604625">
+        <ele>37.0</ele>
+      </trkpt>
+      <trkpt lat="48.044896" lon="-1.604561">
+        <ele>37.0</ele>
+      </trkpt>
+      <trkpt lat="48.044866" lon="-1.604495">
+        <ele>37.1</ele>
+      </trkpt>
+      <trkpt lat="48.044831" lon="-1.604444">
+        <ele>37.2</ele>
+      </trkpt>
+      <trkpt lat="48.044771" lon="-1.604341">
+        <ele>37.4</ele>
+      </trkpt>
+      <trkpt lat="48.044749" lon="-1.60426">
+        <ele>37.5</ele>
+      </trkpt>
+      <trkpt lat="48.04472" lon="-1.604189">
+        <ele>37.5</ele>
+      </trkpt>
+      <trkpt lat="48.044671" lon="-1.604037">
+        <ele>37.9</ele>
+      </trkpt>
+      <trkpt lat="48.04465" lon="-1.603941">
+        <ele>38.2</ele>
+      </trkpt>
+      <trkpt lat="48.04461" lon="-1.603754">
+        <ele>38.6</ele>
+        <name>La Poste, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.044604" lon="-1.603724">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.044572" lon="-1.603743">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.044541" lon="-1.603762">
+        <ele>38.8</ele>
+      </trkpt>
+      <trkpt lat="48.044466" lon="-1.603811">
+        <ele>39.4</ele>
+      </trkpt>
+      <trkpt lat="48.044391" lon="-1.603877">
+        <ele>40.0</ele>
+      </trkpt>
+      <trkpt lat="48.044268" lon="-1.603942">
+        <ele>40.7</ele>
+      </trkpt>
+      <trkpt lat="48.043898" lon="-1.604144">
+        <ele>41.7</ele>
+      </trkpt>
+      <trkpt lat="48.043631" lon="-1.604221">
+        <ele>41.5</ele>
+      </trkpt>
+      <trkpt lat="48.043444" lon="-1.604251">
+        <ele>42.1</ele>
+      </trkpt>
+      <trkpt lat="48.04324" lon="-1.60428">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.043146" lon="-1.604302">
+        <ele>43.7</ele>
+      </trkpt>
+      <trkpt lat="48.043118" lon="-1.604401">
+        <ele>43.1</ele>
+      </trkpt>
+      <trkpt lat="48.043045" lon="-1.604467">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.042907" lon="-1.604451">
+        <ele>44.5</ele>
+      </trkpt>
+      <trkpt lat="48.042743" lon="-1.604436">
+        <ele>45.6</ele>
+      </trkpt>
+      <trkpt lat="48.042403" lon="-1.604505">
+        <ele>46.2</ele>
+      </trkpt>
+      <trkpt lat="48.042172" lon="-1.604566">
+        <ele>46.5</ele>
+      </trkpt>
+      <trkpt lat="48.042105" lon="-1.60457">
+        <ele>46.7</ele>
+      </trkpt>
+      <trkpt lat="48.041938" lon="-1.604555">
+        <ele>46.9</ele>
+      </trkpt>
+      <trkpt lat="48.041756" lon="-1.604556">
+        <ele>46.6</ele>
+      </trkpt>
+      <trkpt lat="48.041697" lon="-1.604559">
+        <ele>46.5</ele>
+      </trkpt>
+      <trkpt lat="48.041445" lon="-1.604571">
+        <ele>45.9</ele>
+      </trkpt>
+      <trkpt lat="48.041375" lon="-1.604589">
+        <ele>45.6</ele>
+      </trkpt>
+      <trkpt lat="48.041286" lon="-1.604609">
+        <ele>45.3</ele>
+      </trkpt>
+      <trkpt lat="48.041222" lon="-1.604611">
+        <ele>45.0</ele>
+      </trkpt>
+      <trkpt lat="48.041178" lon="-1.604601">
+        <ele>44.9</ele>
+      </trkpt>
+      <trkpt lat="48.041098" lon="-1.604558">
+        <ele>44.8</ele>
+      </trkpt>
+      <trkpt lat="48.040884" lon="-1.604392">
+        <ele>44.2</ele>
+      </trkpt>
+      <trkpt lat="48.04073" lon="-1.60428">
+        <ele>44.4</ele>
+      </trkpt>
+      <trkpt lat="48.040656" lon="-1.604224">
+        <ele>45.0</ele>
+      </trkpt>
+      <trkpt lat="48.040584" lon="-1.604163">
+        <ele>45.6</ele>
+      </trkpt>
+      <trkpt lat="48.040438" lon="-1.604039">
+        <ele>45.1</ele>
+      </trkpt>
+      <trkpt lat="48.040335" lon="-1.603969">
+        <ele>44.4</ele>
+      </trkpt>
+      <trkpt lat="48.040266" lon="-1.603885">
+        <ele>44.9</ele>
+      </trkpt>
+      <trkpt lat="48.040202" lon="-1.603777">
+        <ele>45.6</ele>
+      </trkpt>
+      <trkpt lat="48.040155" lon="-1.603651">
+        <ele>45.5</ele>
+      </trkpt>
+      <trkpt lat="48.040113" lon="-1.603585">
+        <ele>45.2</ele>
+      </trkpt>
+      <trkpt lat="48.040043" lon="-1.603521">
+        <ele>44.8</ele>
+      </trkpt>
+      <trkpt lat="48.039955" lon="-1.6035">
+        <ele>44.4</ele>
+      </trkpt>
+      <trkpt lat="48.039868" lon="-1.603497">
+        <ele>44.1</ele>
+      </trkpt>
+      <trkpt lat="48.03987" lon="-1.603601">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.039861" lon="-1.603653">
+        <ele>43.0</ele>
+      </trkpt>
+      <trkpt lat="48.039833" lon="-1.603672">
+        <ele>42.6</ele>
+      </trkpt>
+      <trkpt lat="48.039802" lon="-1.603671">
+        <ele>42.5</ele>
+      </trkpt>
+      <trkpt lat="48.039748" lon="-1.603627">
+        <ele>43.0</ele>
+      </trkpt>
+      <trkpt lat="48.039503" lon="-1.603416">
+        <ele>42.9</ele>
+      </trkpt>
+      <trkpt lat="48.0395" lon="-1.603413">
+        <ele>42.9</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.039503" lon="-1.603416">
+        <ele>42.9</ele>
+      </trkpt>
+      <trkpt lat="48.039487" lon="-1.60346">
+        <ele>42.6</ele>
+      </trkpt>
+      <trkpt lat="48.039448" lon="-1.603572">
+        <ele>42.8</ele>
+      </trkpt>
+      <trkpt lat="48.039279" lon="-1.604048">
+        <ele>43.7</ele>
+      </trkpt>
+      <trkpt lat="48.039256" lon="-1.604115">
+        <ele>44.1</ele>
+      </trkpt>
+      <trkpt lat="48.039632" lon="-1.604369">
+        <ele>41.3</ele>
+      </trkpt>
+      <trkpt lat="48.040008" lon="-1.604623">
+        <ele>39.9</ele>
+      </trkpt>
+      <trkpt lat="48.040385" lon="-1.604877">
+        <ele>39.5</ele>
+      </trkpt>
+      <trkpt lat="48.040375" lon="-1.604905">
+        <ele>39.3</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.040285" lon="-1.605171">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="48.040208" lon="-1.605623">
+        <ele>34.4</ele>
+      </trkpt>
+      <trkpt lat="48.040167" lon="-1.606186">
+        <ele>30.7</ele>
+      </trkpt>
+      <trkpt lat="48.040141" lon="-1.606737">
+        <ele>27.5</ele>
+      </trkpt>
+      <trkpt lat="48.040078" lon="-1.606891">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="48.040073" lon="-1.606889">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="48.040073" lon="-1.60689">
+        <ele>26.6</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.040078" lon="-1.606891">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="48.040077" lon="-1.607056">
+        <ele>26.1</ele>
+      </trkpt>
+      <trkpt lat="48.040207" lon="-1.607475">
+        <ele>25.9</ele>
+      </trkpt>
+      <trkpt lat="48.040431" lon="-1.607956">
+        <ele>25.9</ele>
+      </trkpt>
+      <trkpt lat="48.040655" lon="-1.608437">
+        <ele>25.3</ele>
+      </trkpt>
+      <trkpt lat="48.040677" lon="-1.608487">
+        <ele>25.5</ele>
+      </trkpt>
+      <trkpt lat="48.040701" lon="-1.608539">
+        <ele>25.8</ele>
+      </trkpt>
+      <trkpt lat="48.041089" lon="-1.608707">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="48.041184" lon="-1.609219">
+        <ele>25.9</ele>
+      </trkpt>
+      <trkpt lat="48.041249" lon="-1.609565">
+        <ele>25.7</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.04128" lon="-1.60973">
+        <ele>25.7</ele>
+      </trkpt>
+      <trkpt lat="48.041328" lon="-1.609827">
+        <ele>25.4</ele>
+      </trkpt>
+      <trkpt lat="48.041253" lon="-1.609877">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="48.041046" lon="-1.610042">
+        <ele>25.2</ele>
+      </trkpt>
+      <trkpt lat="48.040778" lon="-1.610245">
+        <ele>24.7</ele>
+      </trkpt>
+      <trkpt lat="48.040537" lon="-1.610402">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.040487" lon="-1.610409">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.040455" lon="-1.610421">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.040436" lon="-1.610442">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.04042" lon="-1.610469">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.040399" lon="-1.610519">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.040395" lon="-1.610566">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.040403" lon="-1.61061">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="48.040427" lon="-1.61067">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040453" lon="-1.61072">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040473" lon="-1.610759">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040502" lon="-1.610849">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040504" lon="-1.610882">
+        <ele>23.6</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.040508" lon="-1.610952">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040495" lon="-1.611039">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="48.04043" lon="-1.611231">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="48.040268" lon="-1.611658">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040107" lon="-1.612084">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.039945" lon="-1.612511">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.039863" lon="-1.612652">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.039811" lon="-1.612714">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.039759" lon="-1.612751">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.039713" lon="-1.612771">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.039663" lon="-1.612768">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.039612" lon="-1.612756">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.039561" lon="-1.612716">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.039506" lon="-1.612646">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.039416" lon="-1.612506">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.039363" lon="-1.612404">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.039319" lon="-1.612308">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.039263" lon="-1.612156">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.039224" lon="-1.612025">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.039178" lon="-1.61187">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.03912" lon="-1.611656">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.038974" lon="-1.611262">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="48.038948" lon="-1.6112">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.038878" lon="-1.611027">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="48.038846" lon="-1.610973">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.038805" lon="-1.61092">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.038687" lon="-1.61081">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.038568" lon="-1.61067">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.038415" lon="-1.610502">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="48.038332" lon="-1.610421">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.038246" lon="-1.610357">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.038145" lon="-1.6103">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.038042" lon="-1.610251">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.037928" lon="-1.610216">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.037843" lon="-1.610198">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="48.037746" lon="-1.610192">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.03758" lon="-1.610214">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.037164" lon="-1.610315">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.037164" lon="-1.610323">
+        <ele>24.2</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.037163" lon="-1.610505">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.037189" lon="-1.610766">
+        <ele>23.3</ele>
+      </trkpt>
+      <trkpt lat="48.037193" lon="-1.610806">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.03705" lon="-1.611289">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.03697" lon="-1.611659">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.036967" lon="-1.61166">
+        <ele>23.8</ele>
+        <name>Saint-Erblon, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.03697" lon="-1.611659">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.03711" lon="-1.611604">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.037215" lon="-1.611597">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.037446" lon="-1.611728">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.037724" lon="-1.61203">
+        <ele>24.7</ele>
+      </trkpt>
+      <trkpt lat="48.038057" lon="-1.612265">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="48.03839" lon="-1.6125">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.038723" lon="-1.612734">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.039056" lon="-1.612969">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.039365" lon="-1.613161">
+        <ele>26.5</ele>
+      </trkpt>
+      <trkpt lat="48.039539" lon="-1.613209">
+        <ele>26.2</ele>
+      </trkpt>
+      <trkpt lat="48.039894" lon="-1.613383">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.040108" lon="-1.613499">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.040254" lon="-1.613562">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.040374" lon="-1.613577">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.040522" lon="-1.613563">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="48.040676" lon="-1.613544">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="48.040756" lon="-1.613604">
+        <ele>23.4</ele>
+        <name>Saint-Erblon, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.040765" lon="-1.613611">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.040804" lon="-1.613734">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.040853" lon="-1.613995">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040905" lon="-1.614344">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="48.040929" lon="-1.614534">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.040964" lon="-1.614771">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.041042" lon="-1.615286">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.041058" lon="-1.615559">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="48.04106" lon="-1.615795">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.041053" lon="-1.61593">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="48.041025" lon="-1.616038">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.041015" lon="-1.616129">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="48.040766" lon="-1.616052">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.040545" lon="-1.615929">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.04028" lon="-1.615707">
+        <ele>25.9</ele>
+      </trkpt>
+      <trkpt lat="48.040016" lon="-1.615484">
+        <ele>27.3</ele>
+      </trkpt>
+      <trkpt lat="48.039786" lon="-1.615385">
+        <ele>27.9</ele>
+      </trkpt>
+      <trkpt lat="48.039654" lon="-1.61537">
+        <ele>28.3</ele>
+      </trkpt>
+      <trkpt lat="48.039518" lon="-1.615366">
+        <ele>28.7</ele>
+      </trkpt>
+      <trkpt lat="48.039398" lon="-1.615343">
+        <ele>29.1</ele>
+      </trkpt>
+      <trkpt lat="48.039271" lon="-1.61531">
+        <ele>29.3</ele>
+      </trkpt>
+      <trkpt lat="48.039104" lon="-1.615262">
+        <ele>29.5</ele>
+      </trkpt>
+      <trkpt lat="48.038995" lon="-1.615244">
+        <ele>29.7</ele>
+      </trkpt>
+      <trkpt lat="48.038887" lon="-1.615234">
+        <ele>29.9</ele>
+      </trkpt>
+      <trkpt lat="48.038674" lon="-1.615239">
+        <ele>30.2</ele>
+      </trkpt>
+      <trkpt lat="48.038516" lon="-1.615232">
+        <ele>30.3</ele>
+      </trkpt>
+      <trkpt lat="48.038453" lon="-1.61522">
+        <ele>30.3</ele>
+        <name>Saint-Erblon, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.038419" lon="-1.615214">
+        <ele>30.3</ele>
+      </trkpt>
+      <trkpt lat="48.038323" lon="-1.615189">
+        <ele>30.3</ele>
+      </trkpt>
+      <trkpt lat="48.038128" lon="-1.615116">
+        <ele>30.5</ele>
+      </trkpt>
+      <trkpt lat="48.037806" lon="-1.615011">
+        <ele>31.4</ele>
+      </trkpt>
+      <trkpt lat="48.037484" lon="-1.614905">
+        <ele>32.2</ele>
+      </trkpt>
+      <trkpt lat="48.037165" lon="-1.614809">
+        <ele>33.3</ele>
+      </trkpt>
+      <trkpt lat="48.037043" lon="-1.614793">
+        <ele>33.7</ele>
+      </trkpt>
+      <trkpt lat="48.036858" lon="-1.614796">
+        <ele>34.2</ele>
+      </trkpt>
+      <trkpt lat="48.036693" lon="-1.614785">
+        <ele>34.4</ele>
+      </trkpt>
+      <trkpt lat="48.036514" lon="-1.614747">
+        <ele>34.5</ele>
+      </trkpt>
+      <trkpt lat="48.036305" lon="-1.614677">
+        <ele>34.7</ele>
+      </trkpt>
+      <trkpt lat="48.036132" lon="-1.614586">
+        <ele>34.4</ele>
+      </trkpt>
+      <trkpt lat="48.035991" lon="-1.614483">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.035938" lon="-1.614406">
+        <ele>33.8</ele>
+      </trkpt>
+      <trkpt lat="48.035903" lon="-1.614304">
+        <ele>33.5</ele>
+      </trkpt>
+      <trkpt lat="48.035902" lon="-1.614347">
+        <ele>33.6</ele>
+        <name>Chemin de la Vallée, Saint-Erblon, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.035901" lon="-1.614369">
+        <ele>33.6</ele>
+      </trkpt>
+      <trkpt lat="48.035884" lon="-1.614441">
+        <ele>33.7</ele>
+      </trkpt>
+      <trkpt lat="48.035769" lon="-1.614732">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.035654" lon="-1.615023">
+        <ele>34.1</ele>
+      </trkpt>
+      <trkpt lat="48.035504" lon="-1.6156">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.035464" lon="-1.615745">
+        <ele>34.7</ele>
+      </trkpt>
+      <trkpt lat="48.035422" lon="-1.615868">
+        <ele>34.7</ele>
+      </trkpt>
+      <trkpt lat="48.035369" lon="-1.615947">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.035313" lon="-1.616007">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.035235" lon="-1.616041">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.035125" lon="-1.61604">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.034991" lon="-1.615972">
+        <ele>34.3</ele>
+      </trkpt>
+      <trkpt lat="48.034932" lon="-1.615946">
+        <ele>34.1</ele>
+      </trkpt>
+      <trkpt lat="48.034791" lon="-1.615954">
+        <ele>33.8</ele>
+      </trkpt>
+      <trkpt lat="48.034567" lon="-1.616029">
+        <ele>33.7</ele>
+      </trkpt>
+      <trkpt lat="48.034428" lon="-1.616079">
+        <ele>33.5</ele>
+      </trkpt>
+      <trkpt lat="48.034331" lon="-1.616124">
+        <ele>33.5</ele>
+      </trkpt>
+      <trkpt lat="48.03426" lon="-1.616144">
+        <ele>33.5</ele>
+      </trkpt>
+      <trkpt lat="48.034222" lon="-1.61615">
+        <ele>33.5</ele>
+      </trkpt>
+      <trkpt lat="48.034184" lon="-1.616139">
+        <ele>33.6</ele>
+      </trkpt>
+      <trkpt lat="48.034063" lon="-1.616082">
+        <ele>33.8</ele>
+      </trkpt>
+      <trkpt lat="48.034011" lon="-1.616058">
+        <ele>33.9</ele>
+      </trkpt>
+      <trkpt lat="48.033938" lon="-1.616024">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.033877" lon="-1.61601">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.033821" lon="-1.616004">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.033738" lon="-1.616021">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.033716" lon="-1.616023">
+        <ele>34.0</ele>
+        <name>C 5, Saint-Erblon, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>16</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.033683" lon="-1.616026">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.033684" lon="-1.616176">
+        <ele>33.8</ele>
+      </trkpt>
+      <trkpt lat="48.033678" lon="-1.616417">
+        <ele>33.7</ele>
+      </trkpt>
+      <trkpt lat="48.03368" lon="-1.616535">
+        <ele>33.6</ele>
+      </trkpt>
+      <trkpt lat="48.033688" lon="-1.616656">
+        <ele>33.5</ele>
+      </trkpt>
+      <trkpt lat="48.033703" lon="-1.616776">
+        <ele>33.4</ele>
+      </trkpt>
+      <trkpt lat="48.033722" lon="-1.616887">
+        <ele>33.3</ele>
+      </trkpt>
+      <trkpt lat="48.033838" lon="-1.617365">
+        <ele>32.8</ele>
+      </trkpt>
+      <trkpt lat="48.033892" lon="-1.617616">
+        <ele>32.6</ele>
+      </trkpt>
+      <trkpt lat="48.033934" lon="-1.617851">
+        <ele>32.2</ele>
+      </trkpt>
+      <trkpt lat="48.033952" lon="-1.617976">
+        <ele>31.9</ele>
+      </trkpt>
+      <trkpt lat="48.033934" lon="-1.618322">
+        <ele>31.3</ele>
+      </trkpt>
+      <trkpt lat="48.033884" lon="-1.618742">
+        <ele>30.4</ele>
+      </trkpt>
+      <trkpt lat="48.03385" lon="-1.618874">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="48.0338" lon="-1.618984">
+        <ele>29.6</ele>
+      </trkpt>
+      <trkpt lat="48.033653" lon="-1.619254">
+        <ele>28.7</ele>
+      </trkpt>
+      <trkpt lat="48.033594" lon="-1.619441">
+        <ele>28.3</ele>
+      </trkpt>
+      <trkpt lat="48.033509" lon="-1.619724">
+        <ele>27.9</ele>
+      </trkpt>
+      <trkpt lat="48.033437" lon="-1.619948">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="48.033286" lon="-1.620112">
+        <ele>28.6</ele>
+      </trkpt>
+      <trkpt lat="48.033074" lon="-1.620244">
+        <ele>29.7</ele>
+      </trkpt>
+      <trkpt lat="48.032707" lon="-1.620394">
+        <ele>30.1</ele>
+      </trkpt>
+      <trkpt lat="48.032339" lon="-1.620543">
+        <ele>30.7</ele>
+      </trkpt>
+      <trkpt lat="48.032238" lon="-1.620619">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="48.032194" lon="-1.620678">
+        <ele>30.5</ele>
+      </trkpt>
+      <trkpt lat="48.032153" lon="-1.620552">
+        <ele>30.9</ele>
+      </trkpt>
+      <trkpt lat="48.032112" lon="-1.620433">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="48.032066" lon="-1.620335">
+        <ele>30.9</ele>
+      </trkpt>
+      <trkpt lat="48.032022" lon="-1.620267">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.031969" lon="-1.620222">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.031882" lon="-1.62019">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="48.031742" lon="-1.620148">
+        <ele>31.4</ele>
+      </trkpt>
+      <trkpt lat="48.031639" lon="-1.620081">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.031525" lon="-1.620007">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.031411" lon="-1.619904">
+        <ele>31.5</ele>
+      </trkpt>
+      <trkpt lat="48.031313" lon="-1.619771">
+        <ele>31.7</ele>
+      </trkpt>
+      <trkpt lat="48.031168" lon="-1.619504">
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="48.030969" lon="-1.619098">
+        <ele>32.5</ele>
+      </trkpt>
+      <trkpt lat="48.030802" lon="-1.618732">
+        <ele>32.6</ele>
+      </trkpt>
+      <trkpt lat="48.030728" lon="-1.618551">
+        <ele>32.3</ele>
+      </trkpt>
+      <trkpt lat="48.030682" lon="-1.618379">
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="48.030653" lon="-1.618143">
+        <ele>32.0</ele>
+        <name>Saint-Erblon, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>16</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.030639" lon="-1.618032">
+        <ele>31.9</ele>
+      </trkpt>
+      <trkpt lat="48.030596" lon="-1.617684">
+        <ele>31.4</ele>
+      </trkpt>
+      <trkpt lat="48.030377" lon="-1.617502">
+        <ele>31.5</ele>
+      </trkpt>
+      <trkpt lat="48.030079" lon="-1.617514">
+        <ele>31.9</ele>
+      </trkpt>
+      <trkpt lat="48.029781" lon="-1.617526">
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="48.029489" lon="-1.617386">
+        <ele>32.2</ele>
+      </trkpt>
+      <trkpt lat="48.029197" lon="-1.617247">
+        <ele>32.7</ele>
+      </trkpt>
+      <trkpt lat="48.028938" lon="-1.617068">
+        <ele>32.7</ele>
+      </trkpt>
+      <trkpt lat="48.028714" lon="-1.616968">
+        <ele>32.9</ele>
+      </trkpt>
+      <trkpt lat="48.02849" lon="-1.616868">
+        <ele>33.3</ele>
+      </trkpt>
+      <trkpt lat="48.028303" lon="-1.616799">
+        <ele>33.6</ele>
+      </trkpt>
+      <trkpt lat="48.028166" lon="-1.616724">
+        <ele>33.7</ele>
+      </trkpt>
+      <trkpt lat="48.02796" lon="-1.61653">
+        <ele>33.9</ele>
+      </trkpt>
+      <trkpt lat="48.027755" lon="-1.616335">
+        <ele>33.9</ele>
+      </trkpt>
+      <trkpt lat="48.027647" lon="-1.616239">
+        <ele>33.9</ele>
+      </trkpt>
+      <trkpt lat="48.027596" lon="-1.616121">
+        <ele>33.9</ele>
+      </trkpt>
+      <trkpt lat="48.027422" lon="-1.615678">
+        <ele>34.2</ele>
+      </trkpt>
+      <trkpt lat="48.027369" lon="-1.615664">
+        <ele>34.2</ele>
+      </trkpt>
+      <trkpt lat="48.027148" lon="-1.61574">
+        <ele>34.4</ele>
+      </trkpt>
+      <trkpt lat="48.026926" lon="-1.615817">
+        <ele>34.9</ele>
+      </trkpt>
+      <trkpt lat="48.026583" lon="-1.615939">
+        <ele>35.7</ele>
+      </trkpt>
+      <trkpt lat="48.026239" lon="-1.616061">
+        <ele>37.0</ele>
+      </trkpt>
+      <trkpt lat="48.025896" lon="-1.616182">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.025828" lon="-1.616178">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.025774" lon="-1.616115">
+        <ele>38.8</ele>
+      </trkpt>
+      <trkpt lat="48.025749" lon="-1.616028">
+        <ele>38.9</ele>
+      </trkpt>
+      <trkpt lat="48.025765" lon="-1.615792">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.025771" lon="-1.615353">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.02574" lon="-1.614962">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.02571" lon="-1.61457">
+        <ele>38.1</ele>
+      </trkpt>
+      <trkpt lat="48.025674" lon="-1.614453">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="48.025663" lon="-1.61446">
+        <ele>38.0</ele>
+        <name>Le Gas, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>16</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.025656" lon="-1.614464">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="48.025635" lon="-1.61447">
+        <ele>38.1</ele>
+      </trkpt>
+      <trkpt lat="48.025588" lon="-1.614469">
+        <ele>38.2</ele>
+      </trkpt>
+      <trkpt lat="48.025467" lon="-1.614441">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.025331" lon="-1.614392">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.02518" lon="-1.614325">
+        <ele>38.4</ele>
+      </trkpt>
+      <trkpt lat="48.025044" lon="-1.61424">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.024893" lon="-1.614138">
+        <ele>39.1</ele>
+      </trkpt>
+      <trkpt lat="48.0248" lon="-1.614091">
+        <ele>39.2</ele>
+      </trkpt>
+      <trkpt lat="48.02472" lon="-1.614062">
+        <ele>39.2</ele>
+      </trkpt>
+      <trkpt lat="48.024639" lon="-1.614048">
+        <ele>39.3</ele>
+      </trkpt>
+      <trkpt lat="48.024329" lon="-1.614028">
+        <ele>39.1</ele>
+      </trkpt>
+      <trkpt lat="48.024077" lon="-1.614022">
+        <ele>38.8</ele>
+      </trkpt>
+      <trkpt lat="48.023825" lon="-1.614015">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.023655" lon="-1.614023">
+        <ele>38.5</ele>
+      </trkpt>
+      <trkpt lat="48.023574" lon="-1.614033">
+        <ele>38.4</ele>
+      </trkpt>
+      <trkpt lat="48.023501" lon="-1.614048">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.023416" lon="-1.614066">
+        <ele>38.2</ele>
+      </trkpt>
+      <trkpt lat="48.023332" lon="-1.61409">
+        <ele>38.2</ele>
+      </trkpt>
+      <trkpt lat="48.023216" lon="-1.614142">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.023101" lon="-1.614201">
+        <ele>38.4</ele>
+      </trkpt>
+      <trkpt lat="48.022752" lon="-1.614403">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.022614" lon="-1.614483">
+        <ele>39.1</ele>
+      </trkpt>
+      <trkpt lat="48.022514" lon="-1.614525">
+        <ele>39.4</ele>
+      </trkpt>
+      <trkpt lat="48.022506" lon="-1.614529">
+        <ele>39.4</ele>
+      </trkpt>
+      <trkpt lat="48.022396" lon="-1.614557">
+        <ele>39.6</ele>
+      </trkpt>
+      <trkpt lat="48.022179" lon="-1.614586">
+        <ele>39.9</ele>
+      </trkpt>
+      <trkpt lat="48.022133" lon="-1.614558">
+        <ele>40.1</ele>
+      </trkpt>
+      <trkpt lat="48.022096" lon="-1.614546">
+        <ele>40.1</ele>
+      </trkpt>
+      <trkpt lat="48.02203" lon="-1.614539">
+        <ele>40.3</ele>
+      </trkpt>
+      <trkpt lat="48.021758" lon="-1.614548">
+        <ele>40.7</ele>
+      </trkpt>
+      <trkpt lat="48.021487" lon="-1.614557">
+        <ele>41.3</ele>
+      </trkpt>
+      <trkpt lat="48.021429" lon="-1.614551">
+        <ele>41.4</ele>
+      </trkpt>
+      <trkpt lat="48.021365" lon="-1.61453">
+        <ele>41.5</ele>
+      </trkpt>
+      <trkpt lat="48.021312" lon="-1.614499">
+        <ele>41.6</ele>
+      </trkpt>
+      <trkpt lat="48.021258" lon="-1.614455">
+        <ele>41.6</ele>
+      </trkpt>
+      <trkpt lat="48.021215" lon="-1.614408">
+        <ele>41.6</ele>
+      </trkpt>
+      <trkpt lat="48.021172" lon="-1.614343">
+        <ele>41.6</ele>
+      </trkpt>
+      <trkpt lat="48.021134" lon="-1.614259">
+        <ele>41.7</ele>
+      </trkpt>
+      <trkpt lat="48.021112" lon="-1.614182">
+        <ele>41.8</ele>
+      </trkpt>
+      <trkpt lat="48.021095" lon="-1.614098">
+        <ele>41.9</ele>
+      </trkpt>
+      <trkpt lat="48.021084" lon="-1.61402">
+        <ele>41.9</ele>
+      </trkpt>
+      <trkpt lat="48.021079" lon="-1.613889">
+        <ele>41.8</ele>
+      </trkpt>
+      <trkpt lat="48.021066" lon="-1.613741">
+        <ele>41.9</ele>
+      </trkpt>
+      <trkpt lat="48.021046" lon="-1.613646">
+        <ele>41.9</ele>
+      </trkpt>
+      <trkpt lat="48.021021" lon="-1.613562">
+        <ele>41.9</ele>
+      </trkpt>
+      <trkpt lat="48.020982" lon="-1.613475">
+        <ele>42.0</ele>
+      </trkpt>
+      <trkpt lat="48.02094" lon="-1.613397">
+        <ele>42.1</ele>
+      </trkpt>
+      <trkpt lat="48.020895" lon="-1.613322">
+        <ele>42.1</ele>
+      </trkpt>
+      <trkpt lat="48.02091" lon="-1.613288">
+        <ele>42.1</ele>
+        <name>La Lande, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>16</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.020895" lon="-1.613322">
+        <ele>42.1</ele>
+      </trkpt>
+      <trkpt lat="48.020845" lon="-1.613276">
+        <ele>42.2</ele>
+      </trkpt>
+      <trkpt lat="48.020787" lon="-1.613237">
+        <ele>42.3</ele>
+      </trkpt>
+      <trkpt lat="48.020712" lon="-1.613205">
+        <ele>42.4</ele>
+      </trkpt>
+      <trkpt lat="48.020728" lon="-1.613153">
+        <ele>42.3</ele>
+      </trkpt>
+      <trkpt lat="48.020761" lon="-1.613084">
+        <ele>42.3</ele>
+      </trkpt>
+      <trkpt lat="48.020779" lon="-1.613005">
+        <ele>42.2</ele>
+      </trkpt>
+      <trkpt lat="48.020782" lon="-1.612938">
+        <ele>42.2</ele>
+      </trkpt>
+      <trkpt lat="48.020778" lon="-1.612866">
+        <ele>42.2</ele>
+      </trkpt>
+      <trkpt lat="48.020765" lon="-1.612792">
+        <ele>42.3</ele>
+      </trkpt>
+      <trkpt lat="48.020739" lon="-1.612715">
+        <ele>42.5</ele>
+      </trkpt>
+      <trkpt lat="48.020703" lon="-1.612621">
+        <ele>42.9</ele>
+      </trkpt>
+      <trkpt lat="48.02065" lon="-1.612521">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.02062" lon="-1.612464">
+        <ele>43.6</ele>
+      </trkpt>
+      <trkpt lat="48.020601" lon="-1.612391">
+        <ele>43.6</ele>
+      </trkpt>
+      <trkpt lat="48.020596" lon="-1.612326">
+        <ele>43.5</ele>
+      </trkpt>
+      <trkpt lat="48.020601" lon="-1.612269">
+        <ele>43.5</ele>
+      </trkpt>
+      <trkpt lat="48.020612" lon="-1.612199">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.020638" lon="-1.612113">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.020644" lon="-1.612057">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.020639" lon="-1.612006">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.020623" lon="-1.61198">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.020655" lon="-1.611951">
+        <ele>43.1</ele>
+      </trkpt>
+      <trkpt lat="48.020882" lon="-1.611881">
+        <ele>42.6</ele>
+      </trkpt>
+      <trkpt lat="48.020948" lon="-1.61185">
+        <ele>42.3</ele>
+      </trkpt>
+      <trkpt lat="48.021015" lon="-1.611772">
+        <ele>42.1</ele>
+      </trkpt>
+      <trkpt lat="48.021043" lon="-1.611696">
+        <ele>42.2</ele>
+      </trkpt>
+      <trkpt lat="48.021052" lon="-1.611644">
+        <ele>42.3</ele>
+      </trkpt>
+      <trkpt lat="48.021071" lon="-1.611537">
+        <ele>42.5</ele>
+      </trkpt>
+      <trkpt lat="48.021128" lon="-1.611185">
+        <ele>42.8</ele>
+      </trkpt>
+      <trkpt lat="48.021226" lon="-1.610753">
+        <ele>42.7</ele>
+      </trkpt>
+      <trkpt lat="48.021265" lon="-1.61064">
+        <ele>42.7</ele>
+      </trkpt>
+      <trkpt lat="48.021286" lon="-1.610537">
+        <ele>42.7</ele>
+      </trkpt>
+      <trkpt lat="48.021299" lon="-1.610355">
+        <ele>42.8</ele>
+      </trkpt>
+      <trkpt lat="48.021294" lon="-1.60998">
+        <ele>42.9</ele>
+      </trkpt>
+      <trkpt lat="48.021285" lon="-1.609485">
+        <ele>43.1</ele>
+      </trkpt>
+      <trkpt lat="48.021257" lon="-1.609214">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.021285" lon="-1.609195">
+        <ele>43.3</ele>
+      </trkpt>
+      <trkpt lat="48.021353" lon="-1.609175">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.021402" lon="-1.609187">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.02142" lon="-1.60916">
+        <ele>43.2</ele>
+      </trkpt>
+      <trkpt lat="48.021446" lon="-1.609143">
+        <ele>43.3</ele>
+      </trkpt>
+      <trkpt lat="48.021764" lon="-1.60908">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.021897" lon="-1.609041">
+        <ele>43.5</ele>
+      </trkpt>
+      <trkpt lat="48.021996" lon="-1.609004">
+        <ele>43.6</ele>
+      </trkpt>
+      <trkpt lat="48.022226" lon="-1.608763">
+        <ele>43.7</ele>
+      </trkpt>
+      <trkpt lat="48.022475" lon="-1.608506">
+        <ele>43.5</ele>
+      </trkpt>
+      <trkpt lat="48.022567" lon="-1.608433">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.022735" lon="-1.608369">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.022811" lon="-1.608316">
+        <ele>43.5</ele>
+      </trkpt>
+      <trkpt lat="48.022883" lon="-1.608221">
+        <ele>43.4</ele>
+      </trkpt>
+      <trkpt lat="48.02293" lon="-1.608078">
+        <ele>43.1</ele>
+      </trkpt>
+      <trkpt lat="48.023019" lon="-1.607532">
+        <ele>42.1</ele>
+      </trkpt>
+      <trkpt lat="48.023055" lon="-1.607314">
+        <ele>42.1</ele>
+        <name>La Trouillais, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>16</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.023109" lon="-1.606985">
+        <ele>42.1</ele>
+      </trkpt>
+      <trkpt lat="48.023187" lon="-1.606502">
+        <ele>41.8</ele>
+      </trkpt>
+      <trkpt lat="48.023265" lon="-1.606018">
+        <ele>41.1</ele>
+      </trkpt>
+      <trkpt lat="48.02334" lon="-1.605608">
+        <ele>40.1</ele>
+      </trkpt>
+      <trkpt lat="48.023491" lon="-1.605038">
+        <ele>39.9</ele>
+      </trkpt>
+      <trkpt lat="48.023641" lon="-1.604468">
+        <ele>39.1</ele>
+      </trkpt>
+      <trkpt lat="48.023838" lon="-1.603903">
+        <ele>38.8</ele>
+      </trkpt>
+      <trkpt lat="48.024" lon="-1.603501">
+        <ele>38.9</ele>
+      </trkpt>
+      <trkpt lat="48.02406" lon="-1.603304">
+        <ele>38.8</ele>
+      </trkpt>
+      <trkpt lat="48.024098" lon="-1.603064">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.024098" lon="-1.602886">
+        <ele>38.5</ele>
+      </trkpt>
+      <trkpt lat="48.024079" lon="-1.602726">
+        <ele>38.5</ele>
+      </trkpt>
+      <trkpt lat="48.024094" lon="-1.602613">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.024147" lon="-1.6025">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.024173" lon="-1.602485">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.024195" lon="-1.602514">
+        <ele>38.5</ele>
+        <name>C 5, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.024173" lon="-1.602485">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.02414" lon="-1.602399">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.024116" lon="-1.602261">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.0241" lon="-1.602006">
+        <ele>38.7</ele>
+      </trkpt>
+      <trkpt lat="48.024059" lon="-1.601412">
+        <ele>39.6</ele>
+      </trkpt>
+      <trkpt lat="48.024038" lon="-1.601027">
+        <ele>39.6</ele>
+      </trkpt>
+      <trkpt lat="48.024017" lon="-1.600642">
+        <ele>39.6</ele>
+      </trkpt>
+      <trkpt lat="48.024026" lon="-1.600221">
+        <ele>42.4</ele>
+      </trkpt>
+      <trkpt lat="48.024027" lon="-1.600159">
+        <ele>42.3</ele>
+      </trkpt>
+      <trkpt lat="48.024252" lon="-1.600179">
+        <ele>41.7</ele>
+      </trkpt>
+      <trkpt lat="48.024518" lon="-1.600224">
+        <ele>40.4</ele>
+      </trkpt>
+      <trkpt lat="48.024784" lon="-1.600269">
+        <ele>38.4</ele>
+      </trkpt>
+      <trkpt lat="48.025076" lon="-1.600313">
+        <ele>36.4</ele>
+      </trkpt>
+      <trkpt lat="48.025276" lon="-1.600316">
+        <ele>35.4</ele>
+      </trkpt>
+      <trkpt lat="48.025402" lon="-1.600315">
+        <ele>34.7</ele>
+        <name>La Grée, Saint-Armel, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.025443" lon="-1.600315">
+        <ele>34.5</ele>
+      </trkpt>
+      <trkpt lat="48.025437" lon="-1.600257">
+        <ele>34.5</ele>
+      </trkpt>
+      <trkpt lat="48.02544" lon="-1.600158">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.025517" lon="-1.600038">
+        <ele>34.1</ele>
+      </trkpt>
+      <trkpt lat="48.025533" lon="-1.599936">
+        <ele>34.1</ele>
+      </trkpt>
+      <trkpt lat="48.025524" lon="-1.59952">
+        <ele>35.5</ele>
+      </trkpt>
+      <trkpt lat="48.025533" lon="-1.599362">
+        <ele>35.7</ele>
+      </trkpt>
+      <trkpt lat="48.025566" lon="-1.599221">
+        <ele>35.9</ele>
+      </trkpt>
+      <trkpt lat="48.025625" lon="-1.598854">
+        <ele>36.3</ele>
+      </trkpt>
+      <trkpt lat="48.025642" lon="-1.59837">
+        <ele>36.7</ele>
+      </trkpt>
+      <trkpt lat="48.025668" lon="-1.597727">
+        <ele>37.1</ele>
+      </trkpt>
+      <trkpt lat="48.025678" lon="-1.597206">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="48.025688" lon="-1.596686">
+        <ele>39.4</ele>
+      </trkpt>
+      <trkpt lat="48.025697" lon="-1.596165">
+        <ele>40.0</ele>
+      </trkpt>
+      <trkpt lat="48.025707" lon="-1.595668">
+        <ele>40.5</ele>
+        <name>Saint-Armel, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.025707" lon="-1.595644">
+        <ele>40.6</ele>
+      </trkpt>
+      <trkpt lat="48.025716" lon="-1.59528">
+        <ele>40.5</ele>
+      </trkpt>
+      <trkpt lat="48.025715" lon="-1.595147">
+        <ele>40.3</ele>
+      </trkpt>
+      <trkpt lat="48.025728" lon="-1.594548">
+        <ele>39.4</ele>
+      </trkpt>
+      <trkpt lat="48.025742" lon="-1.593948">
+        <ele>38.4</ele>
+      </trkpt>
+      <trkpt lat="48.025755" lon="-1.593348">
+        <ele>38.1</ele>
+      </trkpt>
+      <trkpt lat="48.025766" lon="-1.592916">
+        <ele>38.3</ele>
+      </trkpt>
+      <trkpt lat="48.025778" lon="-1.592484">
+        <ele>38.4</ele>
+      </trkpt>
+      <trkpt lat="48.025792" lon="-1.592054">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.025807" lon="-1.591623">
+        <ele>38.5</ele>
+      </trkpt>
+      <trkpt lat="48.025838" lon="-1.591097">
+        <ele>38.6</ele>
+      </trkpt>
+      <trkpt lat="48.025861" lon="-1.590705">
+        <ele>37.8</ele>
+      </trkpt>
+      <trkpt lat="48.025868" lon="-1.590649">
+        <ele>37.7</ele>
+      </trkpt>
+      <trkpt lat="48.025904" lon="-1.590653">
+        <ele>37.9</ele>
+      </trkpt>
+      <trkpt lat="48.026023" lon="-1.590663">
+        <ele>37.8</ele>
+      </trkpt>
+      <trkpt lat="48.026294" lon="-1.590725">
+        <ele>36.4</ele>
+      </trkpt>
+      <trkpt lat="48.026348" lon="-1.59072">
+        <ele>35.9</ele>
+      </trkpt>
+      <trkpt lat="48.026401" lon="-1.590697">
+        <ele>35.3</ele>
+      </trkpt>
+      <trkpt lat="48.026459" lon="-1.590647">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.026533" lon="-1.590546">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="48.026649" lon="-1.590367">
+        <ele>32.6</ele>
+      </trkpt>
+      <trkpt lat="48.026711" lon="-1.590301">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.026759" lon="-1.590286">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.026774" lon="-1.590282">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="48.02686" lon="-1.590246">
+        <ele>29.5</ele>
+      </trkpt>
+      <trkpt lat="48.026959" lon="-1.590138">
+        <ele>28.8</ele>
+      </trkpt>
+      <trkpt lat="48.027145" lon="-1.589899">
+        <ele>28.2</ele>
+      </trkpt>
+      <trkpt lat="48.027234" lon="-1.589791">
+        <ele>27.9</ele>
+      </trkpt>
+      <trkpt lat="48.02725" lon="-1.589781">
+        <ele>27.7</ele>
+        <name>Saint-Armel, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.027315" lon="-1.589738">
+        <ele>27.2</ele>
+      </trkpt>
+      <trkpt lat="48.0274" lon="-1.589726">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="48.027493" lon="-1.589728">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="48.027803" lon="-1.589775">
+        <ele>24.7</ele>
+      </trkpt>
+      <trkpt lat="48.028114" lon="-1.589822">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.028493" lon="-1.589882">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.028872" lon="-1.589942">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.029057" lon="-1.589953">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.029118" lon="-1.590035">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.029167" lon="-1.590227">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.029208" lon="-1.590395">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.029272" lon="-1.590738">
+        <ele>24.7</ele>
+      </trkpt>
+      <trkpt lat="48.029284" lon="-1.590832">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.029278" lon="-1.590912">
+        <ele>24.5</ele>
+      </trkpt>
+      <trkpt lat="48.029266" lon="-1.590989">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.029243" lon="-1.591058">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.029189" lon="-1.591151">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.029024" lon="-1.591421">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="48.028954" lon="-1.591563">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.028908" lon="-1.591675">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.028888" lon="-1.591795">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.028889" lon="-1.591942">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.028914" lon="-1.592171">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.028952" lon="-1.592342">
+        <ele>24.5</ele>
+      </trkpt>
+      <trkpt lat="48.029019" lon="-1.592577">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="48.029055" lon="-1.592679">
+        <ele>24.6</ele>
+        <name>La Seiche, Saint-Armel, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.029121" lon="-1.592861">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.029334" lon="-1.593347">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.029482" lon="-1.59361">
+        <ele>24.7</ele>
+      </trkpt>
+      <trkpt lat="48.029665" lon="-1.593814">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.02981" lon="-1.594018">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.029827" lon="-1.594264">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.029809" lon="-1.594411">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.029744" lon="-1.594926">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="48.029677" lon="-1.595339">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.029685" lon="-1.595494">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="48.029702" lon="-1.595633">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.029712" lon="-1.595768">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="48.029702" lon="-1.595821">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="48.029686" lon="-1.595872">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.029662" lon="-1.595908">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.029638" lon="-1.595925">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.029484" lon="-1.595994">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.029243" lon="-1.596013">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.029002" lon="-1.596033">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="48.028904" lon="-1.595953">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.028798" lon="-1.595979">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.028716" lon="-1.596164">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.028534" lon="-1.596308">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="48.028274" lon="-1.596434">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.028156" lon="-1.596519">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.028059" lon="-1.596609">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="48.027999" lon="-1.596688">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="48.027949" lon="-1.59679">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="48.027892" lon="-1.596898">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="48.027725" lon="-1.597436">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.027671" lon="-1.597648">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.027622" lon="-1.597919">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="48.027561" lon="-1.598563">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="48.027496" lon="-1.598774">
+        <ele>24.9</ele>
+      </trkpt>
+      <trkpt lat="48.027447" lon="-1.598871">
+        <ele>25.7</ele>
+      </trkpt>
+      <trkpt lat="48.027396" lon="-1.598952">
+        <ele>26.3</ele>
+      </trkpt>
+      <trkpt lat="48.027398" lon="-1.599037">
+        <ele>26.5</ele>
+      </trkpt>
+      <trkpt lat="48.027398" lon="-1.599038">
+        <ele>26.5</ele>
+        <name>La Miennais, Saint-Armel, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.027437" lon="-1.599052">
+        <ele>26.3</ele>
+      </trkpt>
+      <trkpt lat="48.027463" lon="-1.59912">
+        <ele>25.9</ele>
+      </trkpt>
+      <trkpt lat="48.027538" lon="-1.599059">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.02784" lon="-1.599052">
+        <ele>24.5</ele>
+      </trkpt>
+      <trkpt lat="48.027895" lon="-1.599073">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="48.028228" lon="-1.599075">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="48.028562" lon="-1.599076">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="48.028896" lon="-1.599078">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="48.029202" lon="-1.599073">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="48.029507" lon="-1.599069">
+        <ele>28.4</ele>
+      </trkpt>
+      <trkpt lat="48.029813" lon="-1.599064">
+        <ele>29.3</ele>
+      </trkpt>
+      <trkpt lat="48.029917" lon="-1.599082">
+        <ele>29.5</ele>
+      </trkpt>
+      <trkpt lat="48.030167" lon="-1.599154">
+        <ele>29.9</ele>
+      </trkpt>
+      <trkpt lat="48.030392" lon="-1.599226">
+        <ele>30.2</ele>
+      </trkpt>
+      <trkpt lat="48.030717" lon="-1.599337">
+        <ele>30.5</ele>
+      </trkpt>
+      <trkpt lat="48.031043" lon="-1.599447">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.031098" lon="-1.599468">
+        <ele>31.8</ele>
+      </trkpt>
+      <trkpt lat="48.031121" lon="-1.599477">
+        <ele>31.9</ele>
+        <name>Le Clos Berquet, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.031149" lon="-1.599487">
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="48.031159" lon="-1.599418">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.031177" lon="-1.599306">
+        <ele>31.4</ele>
+        <name>Le Clos Berquet, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.031179" lon="-1.599291">
+        <ele>31.3</ele>
+      </trkpt>
+      <trkpt lat="48.03114" lon="-1.599278">
+        <ele>31.2</ele>
+      </trkpt>
+      <trkpt lat="48.031085" lon="-1.599247">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="48.031043" lon="-1.599231">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.031001" lon="-1.599212">
+        <ele>30.7</ele>
+      </trkpt>
+      <trkpt lat="48.03094" lon="-1.598844">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.030879" lon="-1.598475">
+        <ele>30.7</ele>
+      </trkpt>
+      <trkpt lat="48.030775" lon="-1.597903">
+        <ele>29.8</ele>
+      </trkpt>
+      <trkpt lat="48.030762" lon="-1.597835">
+        <ele>29.8</ele>
+      </trkpt>
+      <trkpt lat="48.030767" lon="-1.597836">
+        <ele>29.8</ele>
+        <name>C 8, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.031165" lon="-1.597961">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="48.031569" lon="-1.598088">
+        <ele>31.5</ele>
+      </trkpt>
+      <trkpt lat="48.031878" lon="-1.598211">
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="48.03206" lon="-1.598267">
+        <ele>32.4</ele>
+      </trkpt>
+      <trkpt lat="48.03213" lon="-1.598269">
+        <ele>32.6</ele>
+      </trkpt>
+      <trkpt lat="48.0322" lon="-1.598258">
+        <ele>32.7</ele>
+      </trkpt>
+      <trkpt lat="48.032268" lon="-1.598233">
+        <ele>32.8</ele>
+      </trkpt>
+      <trkpt lat="48.032524" lon="-1.598091">
+        <ele>33.4</ele>
+      </trkpt>
+      <trkpt lat="48.032665" lon="-1.598036">
+        <ele>33.9</ele>
+      </trkpt>
+      <trkpt lat="48.032807" lon="-1.598004">
+        <ele>34.3</ele>
+      </trkpt>
+      <trkpt lat="48.032807" lon="-1.598009">
+        <ele>34.3</ele>
+        <name>Allée de la Bitaudais, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.0328" lon="-1.598191">
+        <ele>34.3</ele>
+      </trkpt>
+      <trkpt lat="48.0328" lon="-1.598361">
+        <ele>34.4</ele>
+      </trkpt>
+      <trkpt lat="48.032806" lon="-1.598535">
+        <ele>34.6</ele>
+      </trkpt>
+      <trkpt lat="48.032827" lon="-1.598676">
+        <ele>34.8</ele>
+      </trkpt>
+      <trkpt lat="48.032883" lon="-1.598746">
+        <ele>34.9</ele>
+      </trkpt>
+      <trkpt lat="48.03299" lon="-1.598789">
+        <ele>35.0</ele>
+      </trkpt>
+      <trkpt lat="48.033118" lon="-1.598877">
+        <ele>34.8</ele>
+      </trkpt>
+      <trkpt lat="48.033188" lon="-1.598942">
+        <ele>34.7</ele>
+      </trkpt>
+      <trkpt lat="48.033322" lon="-1.598986">
+        <ele>34.5</ele>
+      </trkpt>
+      <trkpt lat="48.0335" lon="-1.599006">
+        <ele>34.3</ele>
+      </trkpt>
+      <trkpt lat="48.033866" lon="-1.598915">
+        <ele>34.8</ele>
+      </trkpt>
+      <trkpt lat="48.034129" lon="-1.598907">
+        <ele>34.3</ele>
+      </trkpt>
+      <trkpt lat="48.034507" lon="-1.598991">
+        <ele>33.0</ele>
+      </trkpt>
+      <trkpt lat="48.034614" lon="-1.599055">
+        <ele>32.6</ele>
+      </trkpt>
+      <trkpt lat="48.034643" lon="-1.599113">
+        <ele>32.5</ele>
+      </trkpt>
+      <trkpt lat="48.034723" lon="-1.599312">
+        <ele>32.1</ele>
+      </trkpt>
+      <trkpt lat="48.034817" lon="-1.59958">
+        <ele>32.2</ele>
+      </trkpt>
+      <trkpt lat="48.034817" lon="-1.599311">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.034801" lon="-1.599185">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.034787" lon="-1.599108">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="48.034798" lon="-1.599108">
+        <ele>31.6</ele>
+        <name>Rue du Champ Brulon, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>17</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.034843" lon="-1.599111">
+        <ele>31.3</ele>
+      </trkpt>
+      <trkpt lat="48.034882" lon="-1.599113">
+        <ele>31.1</ele>
+      </trkpt>
+      <trkpt lat="48.034914" lon="-1.599112">
+        <ele>30.9</ele>
+      </trkpt>
+      <trkpt lat="48.034944" lon="-1.59911">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.034945" lon="-1.599137">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.034976" lon="-1.599238">
+        <ele>30.7</ele>
+      </trkpt>
+      <trkpt lat="48.034994" lon="-1.599281">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="48.035063" lon="-1.599369">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="48.035122" lon="-1.599425">
+        <ele>30.7</ele>
+      </trkpt>
+      <trkpt lat="48.035179" lon="-1.59946">
+        <ele>30.9</ele>
+      </trkpt>
+      <trkpt lat="48.035236" lon="-1.599484">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="48.035292" lon="-1.599495">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="48.035353" lon="-1.599494">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.035518" lon="-1.599495">
+        <ele>30.3</ele>
+      </trkpt>
+      <trkpt lat="48.035604" lon="-1.599512">
+        <ele>30.3</ele>
+      </trkpt>
+      <trkpt lat="48.03569" lon="-1.599546">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="48.035788" lon="-1.599601">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="48.035985" lon="-1.59988">
+        <ele>30.1</ele>
+      </trkpt>
+      <trkpt lat="48.036138" lon="-1.600079">
+        <ele>30.1</ele>
+      </trkpt>
+      <trkpt lat="48.036335" lon="-1.6003">
+        <ele>31.1</ele>
+      </trkpt>
+      <trkpt lat="48.03644" lon="-1.600431">
+        <ele>31.8</ele>
+      </trkpt>
+      <trkpt lat="48.03669" lon="-1.600766">
+        <ele>32.9</ele>
+      </trkpt>
+      <trkpt lat="48.03694" lon="-1.6011">
+        <ele>34.3</ele>
+      </trkpt>
+      <trkpt lat="48.03719" lon="-1.601434">
+        <ele>35.3</ele>
+      </trkpt>
+      <trkpt lat="48.037305" lon="-1.601575">
+        <ele>35.6</ele>
+      </trkpt>
+      <trkpt lat="48.037332" lon="-1.601602">
+        <ele>35.7</ele>
+      </trkpt>
+      <trkpt lat="48.037426" lon="-1.601698">
+        <ele>36.1</ele>
+      </trkpt>
+      <trkpt lat="48.037726" lon="-1.601909">
+        <ele>37.4</ele>
+      </trkpt>
+      <trkpt lat="48.037883" lon="-1.601988">
+        <ele>38.4</ele>
+      </trkpt>
+      <trkpt lat="48.038034" lon="-1.602043">
+        <ele>39.1</ele>
+      </trkpt>
+      <trkpt lat="48.038237" lon="-1.602084">
+        <ele>40.2</ele>
+        <name>Rue de Châteaubriant, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.03828" lon="-1.602093">
+        <ele>40.4</ele>
+      </trkpt>
+      <trkpt lat="48.038359" lon="-1.602218">
+        <ele>40.5</ele>
+      </trkpt>
+      <trkpt lat="48.03823" lon="-1.602213">
+        <ele>40.0</ele>
+      </trkpt>
+      <trkpt lat="48.038224" lon="-1.60226">
+        <ele>39.8</ele>
+      </trkpt>
+      <trkpt lat="48.038231" lon="-1.602299">
+        <ele>39.8</ele>
+      </trkpt>
+      <trkpt lat="48.038242" lon="-1.602364">
+        <ele>39.6</ele>
+      </trkpt>
+      <trkpt lat="48.038267" lon="-1.602403">
+        <ele>39.6</ele>
+      </trkpt>
+      <trkpt lat="48.038669" lon="-1.602439">
+        <ele>40.8</ele>
+      </trkpt>
+      <trkpt lat="48.038736" lon="-1.602267">
+        <ele>41.4</ele>
+      </trkpt>
+      <trkpt lat="48.038763" lon="-1.602368">
+        <ele>41.2</ele>
+      </trkpt>
+      <trkpt lat="48.039084" lon="-1.602384">
+        <ele>42.0</ele>
+      </trkpt>
+      <trkpt lat="48.039405" lon="-1.6024">
+        <ele>43.5</ele>
+      </trkpt>
+      <trkpt lat="48.039649" lon="-1.602419">
+        <ele>45.5</ele>
+      </trkpt>
+      <trkpt lat="48.039893" lon="-1.602439">
+        <ele>46.9</ele>
+      </trkpt>
+      <trkpt lat="48.040174" lon="-1.602444">
+        <ele>48.9</ele>
+        <name>Rue d&apos;Audierne, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.040208" lon="-1.602445">
+        <ele>49.2</ele>
+      </trkpt>
+      <trkpt lat="48.040236" lon="-1.602984">
+        <ele>47.2</ele>
+      </trkpt>
+      <trkpt lat="48.040378" lon="-1.602995">
+        <ele>47.7</ele>
+      </trkpt>
+      <trkpt lat="48.040396" lon="-1.603506">
+        <ele>46.1</ele>
+      </trkpt>
+      <trkpt lat="48.040613" lon="-1.603666">
+        <ele>46.1</ele>
+      </trkpt>
+      <trkpt lat="48.04083" lon="-1.603826">
+        <ele>46.3</ele>
+      </trkpt>
+      <trkpt lat="48.04087" lon="-1.603858">
+        <ele>46.3</ele>
+      </trkpt>
+      <trkpt lat="48.041117" lon="-1.604057">
+        <ele>46.9</ele>
+      </trkpt>
+      <trkpt lat="48.041282" lon="-1.604191">
+        <ele>47.0</ele>
+      </trkpt>
+      <trkpt lat="48.041285" lon="-1.60419">
+        <ele>47.0</ele>
+        <name>Rue d&apos;Audierne, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.041655" lon="-1.604118">
+        <ele>47.7</ele>
+      </trkpt>
+      <trkpt lat="48.041932" lon="-1.604082">
+        <ele>48.6</ele>
+      </trkpt>
+      <trkpt lat="48.041978" lon="-1.604078">
+        <ele>48.7</ele>
+      </trkpt>
+      <trkpt lat="48.042059" lon="-1.604067">
+        <ele>48.9</ele>
+      </trkpt>
+      <trkpt lat="48.042071" lon="-1.604208">
+        <ele>48.5</ele>
+      </trkpt>
+      <trkpt lat="48.04209" lon="-1.604479">
+        <ele>47.3</ele>
+      </trkpt>
+      <trkpt lat="48.042099" lon="-1.604531">
+        <ele>47.0</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.042105" lon="-1.60457">
+        <ele>46.7</ele>
+      </trkpt>
+      <trkpt lat="48.042085" lon="-1.604878">
+        <ele>44.3</ele>
+      </trkpt>
+      <trkpt lat="48.042071" lon="-1.605075">
+        <ele>42.9</ele>
+      </trkpt>
+      <trkpt lat="48.042067" lon="-1.6052">
+        <ele>42.4</ele>
+      </trkpt>
+      <trkpt lat="48.042076" lon="-1.605324">
+        <ele>41.9</ele>
+      </trkpt>
+      <trkpt lat="48.042091" lon="-1.605466">
+        <ele>40.6</ele>
+      </trkpt>
+      <trkpt lat="48.042113" lon="-1.605546">
+        <ele>39.7</ele>
+      </trkpt>
+      <trkpt lat="48.042186" lon="-1.605619">
+        <ele>39.4</ele>
+      </trkpt>
+      <trkpt lat="48.042469" lon="-1.605883">
+        <ele>38.9</ele>
+      </trkpt>
+      <trkpt lat="48.042648" lon="-1.606042">
+        <ele>38.7</ele>
+        <name>Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.042817" lon="-1.606193">
+        <ele>38.5</ele>
+      </trkpt>
+      <trkpt lat="48.042895" lon="-1.606306">
+        <ele>37.9</ele>
+      </trkpt>
+      <trkpt lat="48.043101" lon="-1.60652">
+        <ele>36.1</ele>
+      </trkpt>
+      <trkpt lat="48.043235" lon="-1.606569">
+        <ele>35.9</ele>
+      </trkpt>
+      <trkpt lat="48.043368" lon="-1.606619">
+        <ele>35.9</ele>
+      </trkpt>
+      <trkpt lat="48.043374" lon="-1.606623">
+        <ele>36.0</ele>
+        <name>Vern-sur-Seiche, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="48.043368" lon="-1.606619">
+        <ele>35.9</ele>
+      </trkpt>
+      <trkpt lat="48.043407" lon="-1.606571">
+        <ele>35.8</ele>
+      </trkpt>
+      <trkpt lat="48.043427" lon="-1.606462">
+        <ele>35.7</ele>
+      </trkpt>
+      <trkpt lat="48.043507" lon="-1.606273">
+        <ele>36.1</ele>
+      </trkpt>
+      <trkpt lat="48.043537" lon="-1.606198">
+        <ele>36.2</ele>
+      </trkpt>
+      <trkpt lat="48.043676" lon="-1.60584">
+        <ele>36.7</ele>
+      </trkpt>
+      <trkpt lat="48.043707" lon="-1.60576">
+        <ele>36.7</ele>
+        <name>Vern-sur-Seiche, Vern-sur-Seiche, Rennes</name>
+        <extensions>
+          <oa:Extension>
+            <oa:mapZoom>19</oa:mapZoom>
+          </oa:Extension>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

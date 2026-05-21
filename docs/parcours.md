@@ -14,7 +14,7 @@ const courses = [
     distance: "5 km",
     image: "5km.png",
     description: "Un tracé rapide pour les amateurs de vitesse.",
-    // lienTrace: "https://www.openrunner.com/" ,
+    lienTrace: "https://connect.garmin.com/modern/course/340430530" ,
     lienVideo:"https://youtu.be/psXU0jXax7E",
   },
   {
@@ -22,8 +22,8 @@ const courses = [
     distance: "10 km",
     image: "10km.png",
     description: "Le parcours à travers la vallée de la Seiche.",
-    // lienTrace: "https://www.openrunner.com/..."
-        lienVideo:"https://youtu.be/5OD_R5B2I7A"
+    lienTrace: " https://connect.garmin.com/modern/course/340433454",
+    lienVideo:"https://youtu.be/5OD_R5B2I7A"
 
   },
   {
@@ -31,8 +31,8 @@ const courses = [
     // distance: "8 km",
     image: "benjamin-minime.png",
     description: "2 boucles calibrées pour les jeunes.",
-    // lienTrace: "",
-            lienVideo:"https://youtu.be/dtfTsEj_JCE"
+    lienTrace: "https://connect.garmin.com/modern/course/340431739",
+    lienVideo:"https://youtu.be/dtfTsEj_JCE"
 
   },
   {
@@ -40,8 +40,8 @@ const courses = [
     // distance: "8 km",
     image: "poussin.png",
     description: "1 boucle.",
-    // lienTrace: "",
-            lienVideo:"https://youtu.be/PrWBmj072n8"
+    lienTrace: " https://connect.garmin.com/modern/course/340432647",
+    lienVideo:"https://youtu.be/PrWBmj072n8"
 
   },
   {
@@ -49,17 +49,17 @@ const courses = [
     // distance: "8 km",
     image: "eveil.png",
     description: "Quelques centaines de mètres pour faire plaisir aux plus jeunes.",
-    // lienTrace: "",
-            lienVideo:"https://youtu.be/o8-rRxGayTA"
+    lienTrace: "https://connect.garmin.com/modern/course/340433136",
+    lienVideo:"https://youtu.be/o8-rRxGayTA"
 
   },
   {
     nom: 'La randonnée "U Express Vern/Seiche"',
-    distance: "11,1 km",
-    image: "randonnee.png",
+    distance: "12 km",
+    image: "randonnee.webp",
     description: "Pour découvrir Vern sans pression.",
-    // lienTrace: "",
-            // lienVideo:"/parcours/2026/videos/rando.mp4"
+    lienTrace: "/parcours/2026/gpx/randonnee.gpx",
+    // lienVideo:"/parcours/2026/videos/rando.mp4"
 
   },
 ]

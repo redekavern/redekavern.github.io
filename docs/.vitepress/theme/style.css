@@ -161,6 +161,7 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
   /* Définit la couleur pour tout le site */
   --vp-nav-bg-color: var(--color-redek-blue);
+  --vp-c-divider: var(--color-redek-blue);
 }
 
 /**

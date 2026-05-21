@@ -45,8 +45,11 @@ const formatDate = (dateString) => {
 }
 
 .actu-item {
-    padding-bottom: 3rem;
-    border-bottom: 1px solid var(--vp-c-divider);
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    ;
+    border-bottom: 4px solid var(--vp-c-divider);
+    /* border-bottom: 4px solid #33BCFF; */
     /* Ligne de séparation */
 }
 

@@ -11,7 +11,7 @@ export const partenaires = [
     { name: "Brin d'Herbe", img: "/logos/partenaires/brin-dherbe.webp", url: "https://brindherbe35.fr/" },
     { name: "Bruno Méril Coiffure", img: "/logos/partenaires/bruno-meril.webp", url: "https://www.brunomerilcoiffure.com/" },
     { name: "C Toutain & A Lavenne Immobilier", img: "/logos/partenaires/ctoutain-immo.webp", url: "https://www.ctoutainimmobilier.com/", update: '2026-04-09' },
-    { name: "Carrefour City Alma", img: "/logos/partenaires/carrefour-city-alma.webp", url: "https://www.carrefour.fr/magasin/city-rennes-alma" },
+    // { name: "Carrefour City Alma", img: "/logos/partenaires/carrefour-city-alma.webp", url: "https://www.carrefour.fr/magasin/city-rennes-alma", update: '2026-05-22' },
     { name: "Carrefour City Bvd de Metz", img: "/logos/partenaires/carrefour-city-metz.webp", url: "https://www.carrefour.fr/magasin/city-rennes-metz", update: '2026-04-21' },
     { name: "Carrefour City Bvd de Verdun", img: "/logos/partenaires/carrefour-city-verdun.webp", url: "https://www.carrefour.fr/magasin/city-rennes-verdun" },
     { name: "Carrefour City Cesson-Sévigné", img: "/logos/partenaires/carrefour-city-cesson.webp", url: "https://www.carrefour.fr/magasin/city-cesson-sevigne-rennes", update: '2026-04-21' },

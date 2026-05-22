@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+
 import './style.css'
 
 import PostList from './components/PostList.vue'
@@ -11,6 +12,7 @@ import SocialFooter from './components/SocialFooter.vue'
 import CloudinaryLightbox from './components/CloudinaryLightbox.vue'
 import BandeauPartenaires from './components/BandeauPartenaires.vue'
 import CookieBanner from './components/CookieBanner.vue'
+import VPBadge from 'vitepress/dist/client/theme-default/components/VPBadge.vue'
 
 export default {
     extends: DefaultTheme,
@@ -23,6 +25,7 @@ export default {
         app.component('CloudinaryLightbox', CloudinaryLightbox)
         app.component('BandeauPartenaires', BandeauPartenaires)
         app.component('CookieBanner', CookieBanner)
+        app.component('Badge', VPBadge)
     },
 
     Layout () {

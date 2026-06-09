@@ -3,8 +3,8 @@ import { fileURLToPath, URL } from 'node:url'
 import path from 'node:path'
 
 const isGitLab = process.env.GITLAB_CI === 'true';
-// const isProd = process.env.NODE_ENV === 'production';
-const isProd = (import.meta as any).env?.PROD;
+const isProd = process.env.NODE_ENV === 'production';
+// const isProd = (import.meta as any).env?.PROD;
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 

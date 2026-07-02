@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Inscriptions
-      link: https://www.klikego.com
+      link: https://www.klikego.com/inscription/redek-a-vern-2026/running-course-a-pied/1376792486000-11
 
 # features:
 #   - title: Inscriptions

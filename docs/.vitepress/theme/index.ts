@@ -11,7 +11,7 @@ import ActualiteList from './components/ActualiteList.vue'
 import SocialFooter from './components/SocialFooter.vue'
 import CloudinaryLightbox from './components/CloudinaryLightbox.vue'
 import BandeauPartenaires from './components/BandeauPartenaires.vue'
-import CookieBanner from './components/CookieBanner.vue'
+// import CookieBanner from './components/CookieBanner.vue'
 import VPBadge from 'vitepress/dist/client/theme-default/components/VPBadge.vue'
 
 export default {
@@ -24,7 +24,7 @@ export default {
         app.component('ActualiteList', ActualiteList)
         app.component('CloudinaryLightbox', CloudinaryLightbox)
         app.component('BandeauPartenaires', BandeauPartenaires)
-        app.component('CookieBanner', CookieBanner)
+        // app.component('CookieBanner', CookieBanner)
         app.component('Badge', VPBadge)
     },
 
@@ -34,7 +34,7 @@ export default {
             // Mais pour le footer global, on utilise souvent 'layout-bottom'
             'layout-bottom': () => [
                 h(SocialFooter),
-                h(CookieBanner)
+                // h(CookieBanner)
             ]
         })
     },

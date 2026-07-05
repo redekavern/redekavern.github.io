@@ -38,6 +38,7 @@ export const partenaires = [
     { name: "Ker Cadélac", img: "/logos/partenaires/ker-cadelac.webp", url: "https://www.kercadelac.fr/", update: '2026-04-07' },
     { name: "Kervel Padel", img: "/logos/partenaires/kervelpadel.webp", url: "https://www.facebook.com/people/Kervel-Padel/61574397430585/" },
     { name: "Kimle", img: "/logos/partenaires/kimle.webp", url: "https://kimle.fr/" },
+    { name: "L'Atelier d'Auriane", img: "/logos/partenaires/l-atelier-d-auriane.webp", url: "https://www.instagram.com/audreynailsstudio/", update: '2026-07-05' },
     { name: "L'Horloger de Vern", img: "/logos/partenaires/horloger-vern.webp", url: "https://hdvern.fr/?srsltid=AfmBOoqKs3YHEos718T9z6s9tmCHczTwVAGpm4-dxMQlRwzLRgxd0WrZ" },
     { name: "L'Instant Bien Être", img: "/logos/partenaires/linstantbienetre.webp", url: "https://www.linstantbienetre35.com/", update: '2026-07-01' },
     { name: "La Bretonne Crèperie", img: "/logos/partenaires/la-bretonne.webp", url: "https://la-bretonne.com/", update: '2026-06-03' },

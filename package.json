@@ -9,9 +9,12 @@
         "vitepress": "^1.6.4"
     },
     "devDependencies": {
-        "@iconify-icons/lucide": "^1.2.135",
-        "@iconify-icons/mdi": "^1.2.48",
-        "@iconify-icons/tabler": "^1.2.95",
+        "@iconify-icons/lucide": "^2.0.2",
+        "@iconify-icons/mdi": "^2.0.0",
+        "@iconify-icons/tabler": "^2.0.0",
         "@iconify/vue": "^5.0.1"
+    },
+    "allowScripts": {
+        "esbuild@0.21.5": true
     }
 }

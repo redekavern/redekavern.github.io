@@ -1,30 +1,37 @@
 // .devcontainer/devcontainer.json
 {
-  "name": "Vitepress Dev Environment",
+  "name": "Redek Dev Environment",
 
   // Utilise le compose Docker du projet pour partager le même réseau avec le backend p35
-  "image": "node:26.5-slim",
-    
+  "image": "node:26",
+
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {"version": "latest"}
+    // "ghcr.io/devcontainers/features/git:1": { "version": "latest" }
 
     // Permet au conteneur de parler au Docker de la machine locale
     // "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
   },
 
   // Ouvre le port 3000 (le port par défaut de Nuxt) sur votre machine locale
-  "forwardPorts": [3000],
+  "forwardPorts": [5173],
 
   // Configure des extensions VS Code qui s'installeront automatiquement DANS le conteneur
   "customizations": {
     "vscode": {
       "extensions": [
         "Vue.volar",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "codeandstuff.package-json-upgrade",
+        "lukas-tr.materialdesignicons-intellisense",
+        "ms-azuretools.vscode-containers",
+        "redhat.vscode-yaml",
+        "Vue.vscode-typescript-vue-plugin",
+        "anweber.vscode-httpyac",
+        "vitest.explorer"
       ]
     }
-  },
+  }
 
   // Commande exécutée après la création du conteneur pour installer vos dépendances
-  "postCreateCommand": "npm install -g npm@12.0.1 && npm install"
+  //   "postCreateCommand": "npm install -g npm@12.0.1 && npm install"
 }

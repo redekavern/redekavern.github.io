@@ -1,35 +1,32 @@
 export const partenaires = [
     { name: "Amevia", img: "/logos/partenaires/amevia.webp", url: "https://amevia-tp.fr" },
     { name: "Aosia Paysage", img: "/logos/partenaires/aosiapaysage.webp", url: "https://www.aosia-paysagiste.fr/" },
-    { name: "Auto Sécurité Val d'Orson", img: "/logos/partenaires/auto-securite.webp", url: "https://centre-controle-technique.autosecurite.com/bretagne/ille-et-vilaine/vern-sur-seiche/8-rue-de-lorson" },
-    { name: "Au Blé d'Or", img: "/logos/partenaires/aubledor.webp", url: "https://www.facebook.com/boulangeriepatisserieauxblesdor/?locale=fr_FR" },
+    { name: "Auto Sécurité Val d'Orson", img: "/logos/partenaires/auto-securite.webp", url: "https://centre-controle-technique.autosecurite.com/bretagne/ille-et-vilaine/vern-sur-seiche/8-rue-de-lorson", update: '2026-08-30' },
+    { name: "Au Blé d'Or", img: "/logos/partenaires/aubledor.webp", url: "https://www.facebook.com/boulangeriepatisserieauxblesdor/?locale=fr_FR", update: '2026-08-30' },
     { name: "Autour d'un Verre", img: "/logos/partenaires/autour-dun-verre.jpg", url: "https://www.centreuniver.com/magasins/autour-dun-verre/" },
     { name: "Barth", img: "/logos/partenaires/barth.jpg", url: "https://www.barth-immobilier.fr/ville_bien/Rennes_1___/immobilier-rennes.html", update: '2026-06-10' },
     { name: "Barthélémy", img: "/logos/partenaires/barthelemy.webp", url: "https://www.groupe-pigeon.com/notre-groupe/notre-implantation/barthelemy/", update: '2026-06-10' },
     { name: "BDS", img: "/logos/partenaires/bds-1.webp", url: "https://www.bds-restaurant.com/", update: '2026-02-27' },
     { name: "Biocoop Vern sur Seiche", img: "/logos/partenaires/biocoop.jpg", url: "https://www.biocoop.fr/?srsltid=AfmBOopGJpowS9qsTdk_Wxfx_wFNJ-47QZp-rzWuGUPWADebtu_HptTv" },
-    // { name: "Bizerba", img: "/logos/partenaires/bizerba.webp", url: "https://www.bizerba.com/fr/fr" },
     { name: "Brin d'Herbe", img: "/logos/partenaires/brin-dherbe.webp", url: "https://brindherbe35.fr/" },
     { name: "Bruno Méril Coiffure", img: "/logos/partenaires/bruno-meril.webp", url: "https://www.brunomerilcoiffure.com/" },
     { name: "C Toutain & A Lavenne Immobilier", img: "/logos/partenaires/ctoutain-immo.webp", url: "https://www.ctoutainimmobilier.com/", update: '2026-04-09' },
-    // { name: "Carrefour City Alma", img: "/logos/partenaires/carrefour-city-alma.webp", url: "https://www.carrefour.fr/magasin/city-rennes-alma", update: '2026-05-22' },
     { name: "Carrefour City Bvd de Metz", img: "/logos/partenaires/carrefour-city-metz.webp", url: "https://www.carrefour.fr/magasin/city-rennes-metz", update: '2026-06-10' },
-    { name: "Carrefour City Bvd de Verdun", img: "/logos/partenaires/carrefour-city-verdun.webp", url: "https://www.carrefour.fr/magasin/city-rennes-verdun" },
+    { name: "Carrefour City Bvd de Verdun", img: "/logos/partenaires/carrefour-city-verdun.webp", url: "https://www.carrefour.fr/magasin/city-rennes-verdun", update: '2026-08-30' },
     { name: "Carrefour City Cesson-Sévigné", img: "/logos/partenaires/carrefour-city-cesson.webp", url: "https://www.carrefour.fr/magasin/city-cesson-sevigne-rennes", update: '2026-04-21' },
-    { name: "Carrefour City Léon Bourgeois", img: "/logos/partenaires/carrefour-city-leon-bourgeois.webp", url: "https://www.carrefour.fr/magasin/city-rennes-leon-bourgeois" },
-    { name: "Carrefour City Villejean", img: "/logos/partenaires/carrefour-city-villejean.webp", url: "https://www.carrefour.fr/magasin/city-rennes-villejean" },
-    { name: "Carrefour Contact Bourg des Comptes", img: "/logos/partenaires/carrefour-contact-bourg-des-comptes.webp", url: "https://www.carrefour.fr/magasin/contact-bourg-des-comptes" },
-    { name: "Carrefour Contact Bourgbarré", img: "/logos/partenaires/carrefour-contact-bourgbarre.webp", url: "https://www.carrefour.fr/magasin/contact-bourgbarre-orgeres" },
-    { name: "Carrefour Contact Cesson", img: "/logos/partenaires/carrefour-contact-cesson.jpg", url: "https://www.carrefour.fr/" },
-    { name: "Carrefour Market Thorigné Fouillard", img: "/logos/partenaires/carrefour-market-thorigne-fouillard.webp", url: "https://www.carrefour.fr/magasin/market-thorigne-fouillard" },
+    { name: "Carrefour City Clémenceau", img: "/logos/partenaires/carrefour-city.webp", url: "https://www.carrefour.fr/magasin/city-cesson-sevigne-rennes", update: '2026-08-30' },
+    { name: "Carrefour City Villejean", img: "/logos/partenaires/carrefour-city-villejean.webp", url: "https://www.carrefour.fr/magasin/city-rennes-villejean", update: '2026-08-30' },
+    { name: "Carrefour Contact Bourg des Comptes", img: "/logos/partenaires/carrefour-contact-bourg-des-comptes.webp", url: "https://www.carrefour.fr/magasin/contact-bourg-des-comptes", update: '2026-08-30' },
+    { name: "Carrefour Contact Bourgbarré", img: "/logos/partenaires/carrefour-contact-bourgbarre.webp", url: "https://www.carrefour.fr/magasin/contact-bourgbarre-orgeres", update: '2026-08-30' },
+    { name: "Carrefour Contact Cesson", img: "/logos/partenaires/carrefour-contact-cesson.jpg", url: "https://www.carrefour.fr/", update: '2026-08-30' },
+    { name: "Carrefour Market Thorigné Fouillard", img: "/logos/partenaires/carrefour-market-thorigne-fouillard.webp", url: "https://www.carrefour.fr/magasin/market-thorigne-fouillard", update: '2026-08-30' },
     { name: "Cerfrance Brocéliande", img: "/logos/partenaires/cerfrance.webp", url: "https://www.cerfrance-broceliande.fr/" },
-    { name: "Charme & Séduction", img: "/logos/partenaires/charme-et-seduction.webp", url: "http://www.charme-et-seduction.com" },
     { name: "Chocolaterie Monbana", img: "/logos/partenaires/monbana-2.webp", url: "https://www.monbana.com" },
     { name: "Cinéville Vern sur Seiche", img: "/logos/partenaires/cineville.webp", url: "https://vern-sur-seiche.cineville.fr/programmes/vern-sur-seiche", update: '2026-04-01' },
     { name: "Coiff & Décoiffé", img: "/logos/partenaires/coiff-decoiffe.webp", url: "https://www.planity.com/coiff-decoiffe-vern-35770-vern-sur-seiche" },
     { name: "Coiffure Emmara", img: "/logos/partenaires/emmara.webp", url: "https://www.facebook.com/coiffureemmaravern/" },
     { name: "Collège Théodore Monod", img: "/logos/partenaires/collegetheodoremonod.webp", url: "http://www.collegemonodvern.fr/" },
-    { name: "Comet Expertise", img: "/logos/partenaires/cometexpertise.webp", url: "https://www.comet-expertise.com/" },
+    { name: "Comet Expertise", img: "/logos/partenaires/cometexpertise.webp", url: "https://www.comet-expertise.com/", update: '2026-08-30' },
     { name: "Crédit Mutuel de Bretagne", img: "/logos/partenaires/cmb-1.png", url: "https://cmb.fr" },
     { name: "DA Diffusion", img: "/logos/partenaires/dadiffusion.webp", url: "https://da-diffusion.fr/" },
     { name: "E Leclerc Vern", img: "/logos/partenaires/leclerc-vern.webp", url: "https://www.e.leclerc/?srsltid=AfmBOopBOqlJ6TMXGMhTMxsNR0eF8qRRN1PQqD0ckg_TNVgA11SjAKwj", update: '2026-04-30' },
@@ -74,13 +71,24 @@ export const partenaires = [
     { name: "Qualitec", img: "/logos/partenaires/qualitec.webp", url: "https://www.qualitec.bzh/" },
     { name: "Rénoval", img: "/logos/partenaires/renoval.webp", url: "https://www.renoval-veranda.com/?utm_source=redekavern", update: '2026-04-08' },
     { name: "Running Conseil", img: "/logos/partenaires/running-conseil.webp", url: "https://www.running-conseil.com/runningconseil-rennes.html", update: '2026-04-21' },
-    // { name: "Sofibac", img: "/logos/partenaires/sofibac.webp", url: "https://www.sofibac.fr" },
     { name: "Surcin", img: "/logos/partenaires/surcin.webp", url: "https://www.linkedin.com/company/surcin-travaux-publics/?originalSubdomain=fr" },
     { name: "Topette la Galette", img: "/logos/partenaires/topettelagalette.webp", url: "https://fr.restaurantguru.com/Topette-la-galette-Vern-sur-Seiche", update: '2026-04-23' },
-    { name: "Total Energies", img: "/logos/partenaires/totalenergies.webp", url: "https://www.totalenergies.fr" },
+    { name: "Total Energies", img: "/logos/partenaires/totalenergies.webp", url: "https://www.totalenergies.fr", update: '2026-08-30' },
     { name: "U Express Vern sur Seiche", img: "/logos/partenaires/uexpress-vernsurseiche.avif", url: "https://www.magasins-u.com/magasin/uexpress-vernsurseiche" },
+
+    // Ne sont plus partenaires
+    // // { name: "Bizerba", img: "/logos/partenaires/bizerba.webp", url: "https://www.bizerba.com/fr/fr" },
+
+    // // { name: "Carrefour City Alma", img: "/logos/partenaires/carrefour-city-alma.webp", url: "https://www.carrefour.fr/magasin/city-rennes-alma", update: '2026-05-22' },
+
+    // // { name: "Carrefour City Léon Bourgeois", img: "/logos/partenaires/carrefour-city-leon-bourgeois.webp", url: "https://www.carrefour.fr/magasin/city-rennes-leon-bourgeois", update: '2026-08-30' },
+    // // { name: "Charme & Séduction", img: "/logos/partenaires/charme-et-seduction.webp", url: "http://www.charme-et-seduction.com", update: '2026-08-30' },
+
+    // // { name: "Sofibac", img: "/logos/partenaires/sofibac.webp", url: "https://www.sofibac.fr" },
+
+
 ]
-// 2. Votre fonction de mélange (Algorithme de Fisher-Yates)
+// 2. Fonction de mélange (Algorithme de Fisher-Yates)
 const melanger = (array) => {
     const nouveauTableau = [...array]; // On travaille sur une copie
     let current = nouveauTableau.length;

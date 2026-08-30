@@ -14,7 +14,7 @@ export const partenaires = [
     { name: "Carrefour City Bvd de Metz", img: "/logos/partenaires/carrefour-city-metz.webp", url: "https://www.carrefour.fr/magasin/city-rennes-metz", update: '2026-06-10' },
     { name: "Carrefour City Bvd de Verdun", img: "/logos/partenaires/carrefour-city-verdun.webp", url: "https://www.carrefour.fr/magasin/city-rennes-verdun", update: '2026-08-30' },
     { name: "Carrefour City Cesson-Sévigné", img: "/logos/partenaires/carrefour-city-cesson.webp", url: "https://www.carrefour.fr/magasin/city-cesson-sevigne-rennes", update: '2026-04-21' },
-    { name: "Carrefour City Clémenceau", img: "/logos/partenaires/carrefour-city.webp", url: "https://www.carrefour.fr/magasin/city-cesson-sevigne-rennes", update: '2026-08-30' },
+    { name: "Carrefour City Clémenceau", img: "/logos/partenaires/carrefour-city.webp", url: "https://www.carrefour.fr/magasin/city-rennes-clemenceau", update: '2026-08-30' },
     { name: "Carrefour City Villejean", img: "/logos/partenaires/carrefour-city-villejean.webp", url: "https://www.carrefour.fr/magasin/city-rennes-villejean", update: '2026-08-30' },
     { name: "Carrefour Contact Bourg des Comptes", img: "/logos/partenaires/carrefour-contact-bourg-des-comptes.webp", url: "https://www.carrefour.fr/magasin/contact-bourg-des-comptes", update: '2026-08-30' },
     { name: "Carrefour Contact Bourgbarré", img: "/logos/partenaires/carrefour-contact-bourgbarre.webp", url: "https://www.carrefour.fr/magasin/contact-bourgbarre-orgeres", update: '2026-08-30' },

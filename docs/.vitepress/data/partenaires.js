@@ -39,7 +39,6 @@ export const partenaires = [
     { name: "L'Atelier d'Auriane", img: "/logos/partenaires/l-atelier-d-auriane.webp", url: "https://www.instagram.com/latelier_dauriane/", update: '2026-08-27' },
     { name: "L'Horloger de Vern", img: "/logos/partenaires/horloger-vern.webp", url: "https://hdvern.fr/?srsltid=AfmBOoqKs3YHEos718T9z6s9tmCHczTwVAGpm4-dxMQlRwzLRgxd0WrZ" },
     { name: "L'Instant Bien Être", img: "/logos/partenaires/linstantbienetre.webp", url: "https://www.linstantbienetre35.com/", update: '2026-07-01' },
-    { name: "La Bretonne Crèperie", img: "/logos/partenaires/la-bretonne.webp", url: "https://la-bretonne.com/", update: '2026-06-03' },
     { name: "La Cavavin", img: "/logos/partenaires/cavavin.avif", url: "https://vernsurseiche.cavavin.co/", update: '2026-04-22' },
     { name: "La Lunetterie Vernoise", img: "/logos/partenaires/lalunetterievernoise.webp", url: "https://lalunetterievernoise.fr" },
     { name: "La Maison qui Respire", img: "/logos/partenaires/maisonquirespire.webp", url: "https://maisonquirespire.com/" },
@@ -84,6 +83,7 @@ export const partenaires = [
 
     // // { name: "Carrefour City Léon Bourgeois", img: "/logos/partenaires/carrefour-city-leon-bourgeois.webp", url: "https://www.carrefour.fr/magasin/city-rennes-leon-bourgeois", update: '2026-08-30' },
     // // { name: "Charme & Séduction", img: "/logos/partenaires/charme-et-seduction.webp", url: "http://www.charme-et-seduction.com", update: '2026-08-30' },
+    // { name: "La Bretonne Crèperie", img: "/logos/partenaires/la-bretonne.webp", url: "https://la-bretonne.com/", update: '2026-09-07' },
 
     // // { name: "Sofibac", img: "/logos/partenaires/sofibac.webp", url: "https://www.sofibac.fr" },
 

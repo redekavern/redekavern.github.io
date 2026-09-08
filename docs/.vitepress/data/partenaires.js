@@ -46,6 +46,7 @@ export const partenaires = [
     { name: "La Pétrie Vern sur Seiche", img: "/logos/partenaires/lapetrie.webp", url: "https://www.facebook.com/p/La-Mie-de-Vern-100063980226620/", update: '2026-04-21' },
     { name: "Le Canap", img: "/logos/partenaires/lecanap.webp", url: "https://www.le-canap.fr/" },
     { name: "Le Carrousel de Vern", img: "/logos/partenaires/carrousel.webp", url: "https://www.instagram.com/lecarrouseldevern" },
+    { name: "Legendre", img: "/logos/partenaires/legendre.webp", url: "https://www.groupe-legendre.com/", update: '2026-09-08' },
     { name: "Leopard Blanc", img: "/logos/partenaires/leopard-blanc.webp", url: "https://www.leopardblanc.com/" },
     { name: "Leroy Logistique", img: "/logos/partenaires/leroylogistique.svg", url: "https://www.leroylogistique.com/" },
     { name: "Les Cafés Mauri", img: "/logos/partenaires/lescafesmauri.webp", url: "https://lescafesmauri.com/" },

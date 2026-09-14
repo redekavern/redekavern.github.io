@@ -72,6 +72,7 @@ async function generateA0Grid () {
           margin: 0;
           padding: 60px;
           background: #ffffff;
+        //   background: #292727;
           font-family: sans-serif;
           width: 2480px;
           height: 3508px; /* Hauteur fixe stricte respectant le ratio A0 */

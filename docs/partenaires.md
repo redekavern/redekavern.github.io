@@ -36,6 +36,8 @@ onMounted(() => {
   </a>
 </div>
 
+[[Affiche Partenaires au format A0]](affiche-partenaires.md)
+
 <style scoped>
 .intro-text {
   font-size: 1.25rem; /* Un peu plus grand que le texte normal */

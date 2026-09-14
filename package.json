@@ -2,10 +2,11 @@
     "type": "module",
     "scripts": {
         "docs:dev": "vitepress dev docs --host 0.0.0.0",
-        "docs:build": "vitepress build docs",
+        "docs:build": "node generateAffichePartenaires.js && vitepress build docs",
         "docs:preview": "vitepress preview docs"
     },
     "dependencies": {
+        "puppeteer": "^25.11.0",
         "vitepress": "^1.6.4"
     },
     "devDependencies": {

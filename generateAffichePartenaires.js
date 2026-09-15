@@ -15,11 +15,11 @@ import { partenaires as originalPartenaires } from './docs/.vitepress/data/parte
 const docDir = "./docs"
 
 
-// Dossier racine où se trouvent vos images (ex: si le chemin est "/logos/partenaires/amevia.webp")
-// Mettez ici le chemin absolu ou relatif vers le dossier parent sur votre disque Ubuntu.
+// Dossier racine où se trouvent vos images
 const ROOT_ASSETS_DIR = path.join(__dirname, docDir, '/public');
 
-const OUTPUT_FILE = path.join(__dirname, docDir, '/public/affiches/partenaires/redek-partenaires-2026-a0.png');
+const OUTPUT_FILE_LIGHT = path.join(__dirname, docDir, '/public/affiches/partenaires/redek-partenaires-2026-a0-light.png');
+const OUTPUT_FILE_DARK = path.join(__dirname, docDir, '/public/affiches/partenaires/redek-partenaires-2026-a0-dark.png');
 // ==========================================
 
 // Fonction pour mélanger un tableau de manière aléatoire
@@ -40,7 +40,6 @@ async function generateA0Grid () {
 
     // 1. Générer le HTML des cartes pour chaque partenaire
     const itemsHTML = partenaires.map(item => {
-        // Nettoyer le chemin de l'image (ex: "/logos/partenaires/amevia.webp" -> "logos/partenaires/amevia.webp")
         const relativeImgPath = item.img.startsWith('/') ? item.img.slice(1) : item.img;
         const absoluteImgPath = path.join(ROOT_ASSETS_DIR, relativeImgPath);
 
@@ -60,8 +59,8 @@ async function generateA0Grid () {
     `;
     }).join('');
 
-    // 2. Template HTML avec votre style CSS adapté au format A0
-    const htmlContent = `
+    // Fonction de génération du template avec couleur de fond paramétrable
+    const getHtmlContent = (bgColor, cardBgColor, borderColor) => `
     <!DOCTYPE html>
     <html lang="fr">
     <head>
@@ -71,19 +70,17 @@ async function generateA0Grid () {
         body {
           margin: 0;
           padding: 60px;
-          background: #ffffff;
-        //   background: #292727;
+          background: ${bgColor};
           font-family: sans-serif;
           width: 2480px;
-          height: 3508px; /* Hauteur fixe stricte respectant le ratio A0 */
-          overflow: hidden; /* Empêche tout débordement */
+          height: 3508px;
+          overflow: hidden;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
         }
         .partners-grid {
           display: grid;
-          /* 6 colonnes et environ 13 lignes pour faire tenir 78 logos confortablement */
           grid-template-columns: repeat(6, 1fr); 
           gap: 24px;
           width: 100%;
@@ -91,14 +88,13 @@ async function generateA0Grid () {
           align-content: center;
         }
         .partner-card {
-          background: white;
-          border: 1px solid #cbd5e1;
+          background: ${cardBgColor};
+          border: 1px solid ${borderColor};
           border-radius: 14px;
           padding: 12px;
           display: flex;
           align-items: center;
           justify-content: center;
-          /* Hauteur calculée pour que les 13 rangées entrent pile dans la hauteur disponible */
           height: 215px; 
         }
         .partner-logo {
@@ -116,36 +112,37 @@ async function generateA0Grid () {
     </html>
   `;
 
-    // 3. Lancement de Puppeteer pour compiler la page
-    console.log("Génération du document en cours...");
+    // 3. Lancement de Puppeteer
+    console.log("Lancement du navigateur pour la génération...");
     const browser = await puppeteer.launch({
         headless: 'new',
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
-
-    // Définition de la vue au format A0 portrait
     await page.setViewport({ width: 2480, height: 3508, deviceScaleFactor: 2 });
-    await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
 
-    // Export en PDF A0 haute qualité
-    // await page.pdf({
-    //     path: OUTPUT_FILE,
-    //     format: 'A0',
-    //     printBackground: true,
-    //     landscape: false
-    // });
-    console.log("Génération de l'image haute définition en cours...");
-
+    // --- Version Light (#ffffff) ---
+    console.log("Génération de l'affiche version claire...");
+    await page.setContent(getHtmlContent('#ffffff', 'white', '#cbd5e1'), { waitUntil: 'domcontentloaded' });
     await page.screenshot({
-        path: OUTPUT_FILE,
+        path: OUTPUT_FILE_LIGHT,
         type: 'png',
         fullPage: false
     });
+    console.log(`Succès ! Fichier clair généré : ${OUTPUT_FILE_LIGHT}`);
 
+    // --- Version Dark (#292727) ---
+    console.log("Génération de l'affiche version sombre...");
+    await page.setContent(getHtmlContent('#292727', 'white', '#444444'), { waitUntil: 'domcontentloaded' });
+    await page.screenshot({
+        path: OUTPUT_FILE_DARK,
+        type: 'png',
+        fullPage: false
+    });
+    console.log(`Succès ! Fichier sombre généré : ${OUTPUT_FILE_DARK}`);
 
     await browser.close();
-    console.log(`Succès ! Fichier A0 généré ici : ${OUTPUT_FILE}`);
+    console.log("Toutes les affiches ont été générées avec succès !");
 }
 
 generateA0Grid().catch(console.error);

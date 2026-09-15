@@ -80,12 +80,13 @@ async function generateA0Grid () {
           justify-content: space-between;
         }
         .partners-grid {
-          display: grid;
-          grid-template-columns: repeat(6, 1fr); 
+          display: flex;
+          flex-wrap: wrap;
           gap: 24px;
           width: 100%;
           flex: 1;
           align-content: center;
+          justify-content: center; /* Centre automatiquement la dernière ligne incomplète */
         }
         .partner-card {
           background: ${cardBgColor};
@@ -96,6 +97,8 @@ async function generateA0Grid () {
           align-items: center;
           justify-content: center;
           height: 215px; 
+          /* Calcul pour avoir exactement 6 cartes par ligne en tenant compte des 5 espaces (gap) de 24px */
+          width: calc((100% - (5 * 24px)) / 6); 
         }
         .partner-logo {
           max-width: 100%;

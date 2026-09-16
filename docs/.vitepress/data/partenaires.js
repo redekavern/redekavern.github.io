@@ -80,6 +80,7 @@ export const partenaires = [
     { name: "Topette la Galette", img: "/logos/partenaires/topettelagalette.webp", url: "https://fr.restaurantguru.com/Topette-la-galette-Vern-sur-Seiche", update: '2026-04-23' },
     { name: "Total Energies", img: "/logos/partenaires/totalenergies.webp", url: "https://www.totalenergies.fr", update: '2026-09-13' },
     { name: "U Express Vern sur Seiche", img: "/logos/partenaires/uexpress-vernsurseiche.webp", url: "https://www.magasins-u.com/magasin/uexpress-vernsurseiche" },
+    { name: "US Vern", img: "/logos/partenaires/usv.webp", url: "https://usvernsurseiche.fr/", update: '2026-09-16' },
     { name: "US Vern Athlétisme", img: "/logos/partenaires/usvathle.webp", url: "https://us-vern-athletisme.assoconnect.com", update: '2026-09-15' },
     { name: "Vern sur Seiche", img: "/logos/partenaires/vern-sur-seiche.webp", url: "https://www.vernsurseiche.fr", update: '2026-09-15' },
 

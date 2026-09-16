@@ -18,8 +18,8 @@ const docDir = "./docs"
 // Dossier racine où se trouvent vos images
 const ROOT_ASSETS_DIR = path.join(__dirname, docDir, '/public');
 
-const OUTPUT_FILE_LIGHT = path.join(__dirname, docDir, '/public/affiches/partenaires/redek-partenaires-2026-a0-light.png');
-const OUTPUT_FILE_DARK = path.join(__dirname, docDir, '/public/affiches/partenaires/redek-partenaires-2026-a0-dark.png');
+const OUTPUT_PATH = path.join(docDir, '/public/affiches/partenaires');
+
 // ==========================================
 
 // Fonction pour mélanger un tableau de manière aléatoire
@@ -33,34 +33,9 @@ function shuffleArray (array) {
 }
 
 async function generateA0Grid () {
-    // Mélange aléatoire du tableau des partenaires
-    const partenaires = shuffleArray(originalPartenaires);
-
-    console.log(`${partenaires.length} logos trouvés dans la liste.`);
-
-    // 1. Générer le HTML des cartes pour chaque partenaire
-    const itemsHTML = partenaires.map(item => {
-        const relativeImgPath = item.img.startsWith('/') ? item.img.slice(1) : item.img;
-        const absoluteImgPath = path.join(ROOT_ASSETS_DIR, relativeImgPath);
-
-        let dataUri = '';
-        if (fs.existsSync(absoluteImgPath)) {
-            const fileBuffer = fs.readFileSync(absoluteImgPath);
-            const base64 = fileBuffer.toString('base64');
-            dataUri = `data:image/webp;base64,${base64}`;
-        } else {
-            console.warn(`Attention : Image introuvable -> ${absoluteImgPath}`);
-        }
-
-        return `
-      <div class="partner-card">
-        <img src="${dataUri}" alt="${item.name}" class="partner-logo" />
-      </div>
-    `;
-    }).join('');
 
     // Fonction de génération du template avec couleur de fond paramétrable
-    const getHtmlContent = (bgColor, cardBgColor, borderColor) => `
+    const getHtmlContent = (itemsHTML, bgColor, cardBgColor, borderColor) => `
     <!DOCTYPE html>
     <html lang="fr">
     <head>
@@ -115,7 +90,7 @@ async function generateA0Grid () {
     </html>
   `;
 
-    // 3. Lancement de Puppeteer
+    // Lancement de Puppeteer
     console.log("Lancement du navigateur pour la génération...");
     const browser = await puppeteer.launch({
         headless: 'new',
@@ -124,25 +99,52 @@ async function generateA0Grid () {
     const page = await browser.newPage();
     await page.setViewport({ width: 2480, height: 3508, deviceScaleFactor: 2 });
 
-    // --- Version Light (#ffffff) ---
-    console.log("Génération de l'affiche version claire...");
-    await page.setContent(getHtmlContent('#ffffff', 'white', '#cbd5e1'), { waitUntil: 'domcontentloaded' });
-    await page.screenshot({
-        path: OUTPUT_FILE_LIGHT,
-        type: 'png',
-        fullPage: false
-    });
-    console.log(`Succès ! Fichier clair généré : ${OUTPUT_FILE_LIGHT}`);
+    const affiches = [
+        { name: 'light', bgColor: '#ffffff', cardBgColor: 'white', borderColor: '#cbd5e1' },
+        { name: 'dark', bgColor: '#292727', cardBgColor: 'white', borderColor: '#444444' },
+    ]
+    const NB = 5
+    for (let i = 1; i <= NB; i++) {
+        // Mélange aléatoire du tableau des partenaires
+        const partenaires = shuffleArray(originalPartenaires);
 
-    // --- Version Dark (#292727) ---
-    console.log("Génération de l'affiche version sombre...");
-    await page.setContent(getHtmlContent('#292727', 'white', '#444444'), { waitUntil: 'domcontentloaded' });
-    await page.screenshot({
-        path: OUTPUT_FILE_DARK,
-        type: 'png',
-        fullPage: false
-    });
-    console.log(`Succès ! Fichier sombre généré : ${OUTPUT_FILE_DARK}`);
+        console.log(`${partenaires.length} logos trouvés dans la liste.`);
+
+        //  Générer le HTML des cartes pour chaque partenaire
+        const itemsHTML = partenaires.map(item => {
+            const relativeImgPath = item.img.startsWith('/') ? item.img.slice(1) : item.img;
+            const absoluteImgPath = path.join(ROOT_ASSETS_DIR, relativeImgPath);
+
+            let dataUri = '';
+            if (fs.existsSync(absoluteImgPath)) {
+                const fileBuffer = fs.readFileSync(absoluteImgPath);
+                const base64 = fileBuffer.toString('base64');
+                dataUri = `data:image/webp;base64,${base64}`;
+            } else {
+                console.warn(`Attention : Image introuvable -> ${absoluteImgPath}`);
+            }
+
+            return `
+                <div class="partner-card">
+                    <img src="${dataUri}" alt="${item.name}" class="partner-logo" />
+                </div>
+            `;
+        }).join('');
+
+
+        for (let bck of affiches) {
+            let OUTPUT_FILE = path.join(OUTPUT_PATH, `redek-partenaires-2026-a0-${i}-${bck.name}.png`);
+            // --- Version Light (#ffffff) ---
+            console.log(`Génération de l'affiche version claire #${i}/${NB}...`);
+            await page.setContent(getHtmlContent(itemsHTML, bck.bgColor, bck.cardBgColor, bck.borderColor), { waitUntil: 'domcontentloaded' });
+            await page.screenshot({
+                path: OUTPUT_FILE,
+                type: 'png',
+                fullPage: false
+            });
+            console.log(`Succès ! Fichier ${bck.name} #${i}/${NB} généré : ${OUTPUT_FILE}`);
+        }
+    }
 
     await browser.close();
     console.log("Toutes les affiches ont été générées avec succès !");

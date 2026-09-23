@@ -17,10 +17,10 @@ import { Icon } from '@iconify/vue';
       <div class="info-card">
         <h4><Icon icon="lucide:car" class="sub-icon" /> Les principaux parkings disponibles :</h4>
         <ul>
-          <li><strong>Parking du terrain de foot du collège</strong> (Collège Théodore Monod)</li>
-          <li><strong>Parking du collège</strong> (Collège Théodore Monod)</li>
-          <li><strong>Parking place de la Mairie</strong></li>
-          <li><strong>Parking place des Droits de l'Homme</strong></li>
+          <li><strong>Parking du terrain de foot du collège</strong> (Collège Théodore Monod) <em>~500 m (7 min à pied)</em></li>
+          <li><strong>Parking du collège</strong> (Collège Théodore Monod) <em>~350 m (5 min à pied)</em></li>
+          <li><strong>Parking place de la Mairie</strong> <em>~350 m (5 min à pied)</em></li>
+          <li><strong>Parking place des Droits de l'Homme</strong>  <em>~350 m (5 min à pied)</em></li>
         </ul>
       </div>
       <div class="info-card alert">

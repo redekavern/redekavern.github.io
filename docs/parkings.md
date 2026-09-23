@@ -19,7 +19,7 @@ import { Icon } from '@iconify/vue';
         <ul>
           <li><strong>Parking du terrain de foot du collège</strong> (Collège Théodore Monod) <em>~500 m (7 min à pied)</em></li>
           <li><strong>Parking du collège</strong> (Collège Théodore Monod) <em>~350 m (5 min à pied)</em></li>
-          <li><strong>Parking place de la Mairie</strong> <em>~350 m (5 min à pied)</em></li>
+          <li><strong>Parking place de la Mairie (U Express)</strong> <em>~350 m (5 min à pied)</em></li>
           <li><strong>Parking place des Droits de l'Homme</strong>  <em>~350 m (5 min à pied)</em></li>
         </ul>
       </div>

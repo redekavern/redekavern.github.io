@@ -222,7 +222,16 @@
   order: 3; /* Place les liens sociaux en dernier */
   margin-left: 30px;
 }
+.VPMenu .nav-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
 
+.VPMenu .nav-icon {
+  stroke: currentColor;
+  opacity: 0.8;
+}
 .VPFooter {
   display: flex !important;
   flex-direction: column-reverse !important; /* Inverse l'ordre des éléments enfants */

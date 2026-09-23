@@ -89,11 +89,10 @@ export default defineConfig({
 
             {
                 text: 'Les infos utiles', items: [
-                    { text: 'Les parcours', link: '/parcours' },
-                    { text: 'Les parkings', link: '/parkings' },
-                    { text: 'Contacts', link: '/contacts' },
-                    { text: 'Les archives', link: '/archives' },
-
+                    { text: '📍 Les parcours', link: '/parcours' },
+                    { text: '🅿️ Les parkings', link: '/parkings' },
+                    { text: '📞 Contacts', link: '/contacts' },
+                    { text: '📂 Les archives', link: '/archives' },
                 ]
             },
             { text: '🔒 Bénévoles', link: '/benevoles' },

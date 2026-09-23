@@ -16,11 +16,23 @@ import { Icon } from '@iconify/vue';
     <div class="parking-info">
       <div class="info-card">
         <h4><Icon icon="lucide:car" class="sub-icon" /> Les principaux parkings disponibles :</h4>
-        <ul>
-          <li><strong>Parking du terrain de foot du collège</strong> (Collège Théodore Monod) <em>~500 m (7 min à pied)</em></li>
-          <li><strong>Parking du collège</strong> (Collège Théodore Monod) <em>~350 m (5 min à pied)</em></li>
-          <li><strong>Parking place de la Mairie (U Express)</strong> <em>~350 m (5 min à pied)</em></li>
-          <li><strong>Parking place des Droits de l'Homme</strong>  <em>~350 m (5 min à pied)</em></li>
+        <ul class="parking-list">
+          <li>
+            <span class="parking-name"><strong>Parking du terrain de foot</strong> <small>(Collège Théodore Monod)</small></span>
+            <span class="parking-distance"><Icon icon="lucide:footprints" class="foot-icon" /> ~500 m <span class="time">(7 min)</span></span>
+          </li>
+          <li>
+            <span class="parking-name"><strong>Parking du collège</strong> <small>(Collège Théodore Monod)</small></span>
+            <span class="parking-distance"><Icon icon="lucide:footprints" class="foot-icon" /> ~350 m <span class="time">(5 min)</span></span>
+          </li>
+          <li>
+            <span class="parking-name"><strong>Parking place de la Mairie</strong> <small>(U Express)</small></span>
+            <span class="parking-distance"><Icon icon="lucide:footprints" class="foot-icon" /> ~350 m <span class="time">(5 min)</span></span>
+          </li>
+          <li>
+            <span class="parking-name"><strong>Parking place des Droits de l'Homme</strong><small>(Place du marché)</small></span>
+            <span class="parking-distance"><Icon icon="lucide:footprints" class="foot-icon" /> ~350 m <span class="time">(5 min)</span></span>
+          </li>
         </ul>
       </div>
       <div class="info-card alert">
@@ -90,17 +102,73 @@ import { Icon } from '@iconify/vue';
   color: #ef4444;
 }
 
-.info-card ul {
-  padding-left: 1.2rem;
+/* Styles spécifiques pour structurer la liste proprement */
+.parking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.info-card li {
-  margin-bottom: 0.5rem;
+.parking-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed var(--vp-c-divider);
 }
 
-@media (max-width: 768px) {
+.parking-list li:last-child {
+  border-bottom: none;
+}
+
+.parking-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.parking-name small {
+  color: var(--vp-c-text-2);
+  font-size: 0.85rem;
+}
+
+.parking-distance {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+  font-weight: 500;
+  background: var(--vp-c-bg);
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--vp-c-divider);
+  font-size: 0.9rem;
+}
+
+.foot-icon {
+  color: #3b82f6;
+  font-size: 1rem;
+}
+
+.time {
+  color: var(--vp-c-text-2);
+  font-weight: normal;
+}
+
+@media (max-width: 1024px) {
   .parking-info {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .parking-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .parking-distance {
+    align-self: flex-end;
   }
 }
 </style>

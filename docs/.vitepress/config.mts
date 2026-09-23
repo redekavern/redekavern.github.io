@@ -83,12 +83,19 @@ export default defineConfig({
         nav: [
             { text: 'Accueil', link: '/' },
             { text: 'Actualités', link: '/actualites' },
-            { text: 'Contacts', link: '/contacts' },
             // { text: 'Actualités', link: '/actualites' },
             { text: 'Partenaires', link: '/partenaires' },
             { text: 'Photos', link: '/photos' },
-            { text: 'Les parcours', link: '/parcours' },
-            { text: 'Les archives', link: '/archives' },
+
+            {
+                text: 'Les infos utiles', items: [
+                    { text: 'Les parcours', link: '/parcours' },
+                    { text: 'Les parkings', link: '/parkings' },
+                    { text: 'Contacts', link: '/contacts' },
+                    { text: 'Les archives', link: '/archives' },
+
+                ]
+            },
             { text: '🔒 Bénévoles', link: '/benevoles' },
         ],
 

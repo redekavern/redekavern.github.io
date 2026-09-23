@@ -185,9 +185,11 @@
   font-weight: bold;
 }
 
-.VPNavBar .VPLink.VPNavBarMenuLink {
+.VPNavBar .VPLink.VPNavBarMenuLink ,
+.VPNavBarMenuGroup .text  {
   font-size: 19px;
 }
+
 
 .VPNavBarTitle .title {
   font-size: 36px;

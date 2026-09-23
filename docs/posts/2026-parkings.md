@@ -1,5 +1,5 @@
 ---
-title: Où se garer pour le Redek
+title: Où se garer pour la Redek
 
 date: 2026-09-23
 published: true

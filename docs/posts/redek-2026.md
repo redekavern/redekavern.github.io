@@ -3,7 +3,7 @@ title: Redek à Vern 2026
 date: 27/09/2026
 ---
 
-<img src="/affiches/redek_2026.webp" alt="Redek à Vern 2026" class="img-post" />
+<img src="/affiches/2026/redek_2026.webp" alt="Redek à Vern 2026" class="img-post" />
 
 ### Réservez dès maintenant votre dimanche 27 septembre 2026 pour courir la Redek à Vern !
 

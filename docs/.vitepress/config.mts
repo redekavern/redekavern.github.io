@@ -97,6 +97,7 @@ export default defineConfig({
                     { text: '🅿️ Les parkings', link: '/parkings' },
                     { text: '📞 Les contacts', link: '/contacts' },
                     { text: '📂 Les archives', link: '/archives' },
+                    { text: '📄 Règlement', link: '/reglement/reglement-courses-redek-a-vern-2026.pdf', target: '_blank', },
                 ]
             },
             { text: '🔒 Bénévoles', link: '/benevoles' },

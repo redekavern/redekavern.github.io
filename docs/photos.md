@@ -8,7 +8,7 @@ const albums = [
   {
     annee: "2026",
     titre: "Édition 2026",
-    description: "Repassez dans quelques temps vous y retrouverez les photos de l'édition 2026.",
+    description: "Parcourez les galeries de la Redek à Vern 2026 et revivez la course de l'intérieur.",
     couverture: "/photos/covers/cover-2026.webp", 
     lienExterne: "/pages/photos-2026.html",
     // nbPhotos: "450 photos"

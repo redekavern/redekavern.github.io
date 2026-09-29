@@ -7,10 +7,10 @@ Revivez en images toute l'énergie et la convivialité de la Redek à Vern 2026
 ## Les partenaires et les bénévoles
 <CloudinaryLightbox cloudName="dijzba65m" tag="Benevoles2026" />
 
-## Les courses jeunes
+## Les courses jeunes by CMB
 <CloudinaryLightbox cloudName="dijzba65m" tag="Jeunes2026" />
 
-## Les courses
+## Les courses Running Conseil et BDS
 <CloudinaryLightbox cloudName="dijzba65m" tag="Redek2026" />
 
 ## Les podiums

@@ -80,6 +80,10 @@ export default defineConfig({
             alt: 'Logo de la course à pied Redek à Vern'
         },
         siteTitle: false,
+        outline: {
+            label: 'Sur cette page', // Le texte qui remplacera "On this page"
+            // level: [2, 3] // (Optionnel) Pour cibler les niveaux de titres h2 et h3
+        },
         nav: [
             { text: 'Accueil', link: '/' },
             { text: 'Actualités', link: '/actualites' },

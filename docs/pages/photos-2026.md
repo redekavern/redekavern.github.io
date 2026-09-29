@@ -1,6 +1,6 @@
 # Photos de la Redek à Vern 2026
 
-Revivez les moments forts de la Redek à Vern 2026.
+Revivez en images toute l'énergie et la convivialité de la Redek à Vern 2026
 
 [[toc]]
 

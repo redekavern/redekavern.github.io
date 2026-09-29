@@ -10,7 +10,7 @@ const albums = [
     titre: "Édition 2026",
     description: "Repassez dans quelques temps vous y retrouverez les photos de l'édition 2026.",
     couverture: "/photos/covers/cover-2026.webp", 
-    // lienExterne: "/pages/photos-2025.html",
+    lienExterne: "/pages/photos-2026.html",
     // nbPhotos: "450 photos"
   },{
     annee: "2025",

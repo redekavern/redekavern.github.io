@@ -13,5 +13,9 @@ Revivez en images toute l'énergie et la convivialité de la Redek à Vern 2026
 ## Les courses Running Conseil et BDS
 <CloudinaryLightbox cloudName="dijzba65m" tag="Redek2026" />
 
+## La marche U Express Vern
+<CloudinaryLightbox cloudName="dijzba65m" tag="Marche2026" />
+
+
 ## Les podiums
 <CloudinaryLightbox cloudName="dijzba65m" tag="Podiums2026" />

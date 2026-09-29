@@ -10,6 +10,8 @@ Revivez les moments forts de la Redek à Vern 2026.
 ## Les courses jeunes
 <CloudinaryLightbox cloudName="dijzba65m" tag="Jeunes2026" />
 
-
 ## Les courses
 <CloudinaryLightbox cloudName="dijzba65m" tag="Redek2026" />
+
+## Les podiums
+<CloudinaryLightbox cloudName="dijzba65m" tag="Podiums2026" />

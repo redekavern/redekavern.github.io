@@ -5,6 +5,25 @@ Retrouvez ci-dessous les meilleurs temps enregistrés pour nos épreuves. Le rec
 <script setup>
 import data from './data/records.json'
 
+const podiumsData = {
+  femmes: [
+    'photos/podium_femmes_1.webp',
+    'photos/podium_femmes_2.webp'
+  ],
+  hommes: [
+    'photos/podium_hommes_1.webp',
+    'photos/podium_hommes_2.webp'
+  ]
+}
+
+// Fonction pour récupérer l'image en alternant selon l'index de la course (0, 1, etc.)
+const getPodiumImage = (genre, courseIndex) => {
+  const images = podiumsData[genre]
+  if (!images || images.length === 0) return ''
+  // Utilise le modulo (%) pour boucler s'il y a plus de courses que d'images
+  return images[courseIndex % images.length]
+}
+
 // Fonction utilitaire pour convertir un temps "mm:ss" en secondes totales
 const timeToSeconds = (timeStr) => {
   if (!timeStr) return 999999
@@ -31,13 +50,25 @@ const getBestIndex = (recordsList) => {
 </script>
 
 <div class="records-container">
-  <div v-for="course in data.courses" :key="course.distance" class="course-card">
+  <div v-for="(course, courseIndex) in data.courses" :key="course.distance" class="course-card">
     <h2>{{ course.distance }}</h2>
     <!-- Boucle sur les catégories (hommes / femmes) -->
     <div v-for="(recordsList, genre) in course.categories" :key="genre" class="category-section">
-      <h3 class="category-title">
-        {{ genre === 'hommes' ? 'Hommes' : 'Femmes' }}
-      </h3>
+      <div class="category-header">
+        <h3 class="category-title">
+          {{ genre === 'hommes' ? 'Hommes 🏃‍♂️' : 'Femmes 🏃‍♀️' }}
+        </h3>
+      </div>
+      <!-- Illustration Podium intégrée par genre -->
+      <div class="podium-showcase" v-if="genre === 'femmes' || genre === 'hommes'">
+        <div class="podium-image-wrapper">
+          <img 
+            :src="getPodiumImage(genre, courseIndex)"
+            :alt="genre === 'femmes' ? 'Podium Féminin' : 'Podium Masculin'" 
+            loading="lazy" 
+          />
+                  </div>
+      </div>
       <table class="records-table">
         <thead>
           <tr>
@@ -96,13 +127,71 @@ const getBestIndex = (recordsList) => {
 }
 
 .category-section {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  border-top: 1px dashed var(--vp-c-divider);
+  padding-top: 1.5rem;
+}
+
+.category-section:first-of-type {
+  border-top: none;
+  padding-top: 0;
 }
 
 .category-title {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
   color: var(--vp-c-text-1);
+  font-weight: 700;
+}
+
+/* Style de l'encart podium par catégorie */
+.podium-showcase {
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+}
+
+.podium-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.podium-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.podium-image-wrapper:hover img {
+  transform: scale(1.03);
+}
+
+/* Badge sur l'image */
+.badge-podium {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 20px;
+  color: white;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.badge-podium.femmes {
+  background-color: rgba(236, 72, 153, 0.9); /* Rose moderne */
+}
+
+.badge-podium.hommes {
+  background-color: rgba(59, 130, 246, 0.9); /* Bleu moderne */
 }
 
 .records-table {
@@ -123,15 +212,11 @@ const getBestIndex = (recordsList) => {
   color: var(--vp-c-text-2);
 }
 
-/* --- CORRECTION ICI : Utilisation de !important et d'un bleu explicite --- */
 .records-table tr.absolute-record,
 .records-table tr.absolute-record td {
   background-color: rgba(64, 150, 255, 0.15) !important;
   font-weight: bold;
 }
-
-/* Si vous préférez un vrai fond bleu vif, décommentez la ligne ci-dessous : */
-/* .records-table tr.absolute-record td { color: #fff !important; background-color: #3b82f6 !important; } */
 
 .badge-record {
   display: inline-block;

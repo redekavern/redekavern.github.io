@@ -96,6 +96,7 @@ export default defineConfig({
                     { text: '📍 Les parcours', link: '/parcours' },
                     { text: '🅿️ Les parkings', link: '/parkings' },
                     { text: '📞 Les contacts', link: '/contacts' },
+                    { text: '🏆 Les records', link: '/records' },
                     { text: '📂 Les archives', link: '/archives' },
                     { text: '📄 Règlement', link: '/reglement/reglement-courses-redek-a-vern-2026.pdf', target: '_blank', },
                 ]

@@ -3,7 +3,7 @@
     {
       "distance": "10 km",
       "categories": {
-                "femmes": [
+        "femmes": [
           { "annee": 2026, "nom": "Corinne POIRIER", "temps": "45:25" },
           { "annee": 2025, "nom": "Amelie SINQUIN", "temps": "36:33" },
           { "annee": 2024, "nom": "Juliette JOIN", "temps": "40:46" },
@@ -25,12 +25,14 @@
         "femmes": [
           { "annee": 2026, "nom": "Agathe MUSELET ", "temps": "18:33" },
           { "annee": 2025, "nom": "Agathe MUSELET", "temps": "18:04" },
-          { "annee": 2024, "nom": "Laura DELATOUCHE", "temps": "20:27" }
+          { "annee": 2024, "nom": "Laura DELATOUCHE", "temps": "20:27" },
+          { "annee": 2023, "nom": "Alicia AUBREE", "temps": "25:05" }
         ],
          "hommes": [
           { "annee": 2026, "nom": "Thibault LECOMTE", "temps": "15:36" },
           { "annee": 2025, "nom": "AdrienDETANTE", "temps": "16:31" },
-          { "annee": 2024, "nom": "Marwan KENZOU", "temps": "16:16" }
+          { "annee": 2024, "nom": "Marwan KENZOU", "temps": "16:16" },
+          { "annee": 2023, "nom": "Robin REMILLY", "temps": "18:31" }
         ]
       }
     }

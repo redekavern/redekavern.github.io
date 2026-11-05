@@ -2,6 +2,7 @@
 .vitepress/cache
 docs/.vitepress/dist/
 docs/.vitepress/cache/
+docs/public/logos/partenaires-a4/
 node_modules
 partenaires.xlsx
 

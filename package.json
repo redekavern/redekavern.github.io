@@ -1,21 +1,21 @@
 {
-    "type": "module",
-    "scripts": {
-        "docs:dev": "vitepress dev docs --host 0.0.0.0",
-        "docs:build": "node generateAffichePartenaires.js && vitepress build docs",
-        "docs:preview": "vitepress preview docs"
-    },
-    "dependencies": {
-        "puppeteer": "^25.12.0",
-        "vitepress": "^1.6.4"
-    },
-    "devDependencies": {
-        "@iconify-icons/lucide": "^2.0.16",
-        "@iconify-icons/mdi": "^2.0.0",
-        "@iconify-icons/tabler": "^2.0.3",
-        "@iconify/vue": "^5.0.3"
-    },
-    "allowScripts": {
-        "esbuild@0.21.5": true
-    }
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0",
+    "docs:build": "node generateAffichePartenaires.js && vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "puppeteer": "^25.16.0",
+    "vitepress": "^1.6.4"
+  },
+  "devDependencies": {
+    "@iconify-icons/lucide": "^2.0.27",
+    "@iconify-icons/mdi": "^2.0.0",
+    "@iconify-icons/tabler": "^2.0.5",
+    "@iconify/vue": "^5.0.5"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
 }
